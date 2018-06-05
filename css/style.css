@@ -1,0 +1,198 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&subset=latin-ext');
+/* FONT END */
+
+* {
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 400;
+    font-size: 14px;
+}
+
+body {
+	background: #F3F3F5;
+}
+
+h2, h3, h4, h5, h6 {
+	color: #fff;
+	font-size: 1.57em;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+h2 a, h3 a, h4 a, h5 a, h6 a {
+    font-weight: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+    text-align: inherit;
+    letter-spacing: inherit;
+}
+
+a:hover {
+	color: #0DCFFF;
+	text-decoration: none;
+}
+
+p {
+    display: block;
+    line-height: 1.4em;
+    margin: 1em 0;
+}
+
+header {
+	background-image: url(../img/tezba-a-obchodovani.jpg);
+}
+
+.crypto-articles {
+	background-image: url(../img/net.png);
+}
+
+.crypto-articles .more {
+	float: right;
+}
+
+.crypto-articles .container {
+	max-width: 1020px;
+	padding: 70px 45px;
+}
+
+.crypto-main-articles .button {
+	color: #fff;
+	background-color: rgb(14,208,255);
+}
+
+
+.crypto-articlesItem {
+	margin: 5px;
+	padding: 25px;
+	box-shadow: 0 0 10px rgba(0,0,0,.25);
+}
+
+.crypto-articlesItem:before {
+	content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    z-index: 0;
+}
+
+.crypto-news {
+	background: #fff;
+	margin: 5px;
+	padding: 40px 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,.25);
+}
+
+.itemNews {
+	border-bottom: 1px solid #F3F3F5;
+	margin: 0 40px;
+    padding: 10px 0;
+}
+
+.itemNews:last-child {
+	border-bottom: none;
+}
+
+.itemNews h2 {
+	font-size: 1.14em;
+	color: #000;
+}
+
+.itemNewsImg {
+	padding: 0;
+	padding-left: 15px;
+	vertical-align: middle;
+}
+
+.itemNewsImg img {
+	object-fit: cover;
+	width: 100%;
+	height: 82px;
+}
+
+/* COMMON STYLES */
+
+.normalWrap {
+	max-width: 1020px;
+}
+
+.imageBg {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	transform: translate(-50%,-50%) scale(1);
+	-webkit-transition: transform 0.3s linear;
+	-moz-transition: transform 0.3s linear;
+	-ms-transition: transform 0.3s linear;
+	-o-transition: transform 0.3s linear;
+	transition: transform 0.3s linear;
+	z-index: -1;
+}
+
+.smallTitle {
+	color: #0DCFFF !important;
+	font-size: 10px;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 0.4em;
+	margin-bottom: 15px !important;
+}
+
+.smallTitle::before {
+	content: '_';
+	color: inherit;
+	font-size: inherit;
+	position: relative;
+	display: inline-block;
+}
+
+.more {
+	color: #0DCFFF !important;
+	font-size: 0.71em;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 0.4em;
+}
+
+.more:hover {
+	color: #42D67E !important;
+}
+
+.date {
+	color: #0DCFFF !important;
+	font-size: 0.8em;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 0.4em;
+	margin-bottom: 0.5em;
+}
+
+.button {
+	padding: 13px 15px 12px 15px;
+}
+
+.button span {
+	font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+
+/* BOOTSTRAP */
+
+.col-lg-6.crypto-articlesItem {
+	width: calc(50% - 10px);
+}
+
+[class*="col"] {
+	flex: auto;
+}
