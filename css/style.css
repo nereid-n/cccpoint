@@ -6,6 +6,7 @@
 	font-family: 'Nunito Sans', sans-serif;
 	font-weight: 400;
     font-size: 14px;
+    line-height: 1;
 }
 
 body {
@@ -33,10 +34,22 @@ a:hover {
 	text-decoration: none;
 }
 
+a {
+	cursor: pointer;
+}
+
 p {
     display: block;
     line-height: 1.4em;
     margin: 1em 0;
+}
+
+::after, ::before, a {
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-ms-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
 }
 
 header {
@@ -45,6 +58,9 @@ header {
 
 .crypto-articles {
 	background-image: url(../img/net.png);
+	background-position: bottom;
+    background-size: auto;
+    background-repeat: no-repeat;
 }
 
 .crypto-articles .more {
@@ -59,13 +75,60 @@ header {
 .crypto-main-articles .button {
 	color: #fff;
 	background-color: rgb(14,208,255);
+	margin-right: 5px;
+	margin-top: 5px;
+	position: relative;
+    display: inline-block;
+	width: auto;
+    height: auto;
+    overflow: hidden;
 }
 
+.crypto-main-articles .button:hover {
+    background: rgb(14,208,255);
+}
+
+.crypto-main-articles .button:hover:after {
+    right: 0;
+}
+
+.crypto-main-articles .button::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: -moz-linear-gradient(-45deg, rgba(14,208,255,1) 0%, rgba(66,214,126,1) 100%);
+	background: -webkit-linear-gradient(-45deg, rgba(14,208,255,1) 0%,rgba(66,214,126,1) 100%);
+	background: linear-gradient(135deg, rgba(14,208,255,1) 0%,rgba(66,214,126,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0ed0ff', endColorstr='#42d67e',GradientType=1 );
+	z-index: 0;
+}
+.crypto-main-articles .button::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: -200%;
+	width: 200%;
+	height: 100%;
+	background: -moz-linear-gradient(-45deg, rgba(14,208,255,0) 0%, rgba(14,208,255,1) 100%);
+	background: -webkit-linear-gradient(-45deg, rgba(14,208,255,0) 0%,rgba(14,208,255,1) 100%);
+	background: linear-gradient(135deg, rgba(14,208,255,0) 0%,rgba(14,208,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0ed0ff', endColorstr='#42d67e',GradientType=1 );
+	z-index: 0;
+}
 
 .crypto-articlesItem {
 	margin: 5px;
-	padding: 25px;
+	padding: 35px 25px;
 	box-shadow: 0 0 10px rgba(0,0,0,.25);
+	overflow: hidden;
+	z-index: 1;
+}
+
+.crypto-articlesItem:hover .imageBg {
+    transform: translate(-50%,-50%) scale(1.2);
 }
 
 .crypto-articlesItem:before {
@@ -77,6 +140,20 @@ header {
     height: 100%;
     background: rgba(0,0,0,.5);
     z-index: 0;
+}
+
+.crypto-main-news .button {
+	background-color: #fff;
+	margin-right: 5px;
+	margin-top: 5px;
+	color: #0ED0FF;
+	transition: all 0.3s ease-in;
+}
+
+.crypto-main-news .button:hover {
+	background-color: #0ED0FF;
+	color: #fff;
+	transition: all 0.3s ease-in;
 }
 
 .crypto-news {
@@ -111,6 +188,19 @@ header {
 	object-fit: cover;
 	width: 100%;
 	height: 82px;
+}
+
+@media (max-width: 992px) {
+	.itemNewsImg img {
+		height: 140px;
+	}
+}
+
+@media (max-width: 768px) { 
+	.itemNewsImg img {
+		height: 260px;
+		margin-bottom: 10px;
+	}
 }
 
 /* COMMON STYLES */
@@ -185,6 +275,8 @@ header {
     font-weight: 800;
     letter-spacing: 0.3em;
     text-transform: uppercase;
+    position: relative;
+	z-index: 2;
 }
 
 /* BOOTSTRAP */
