@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/mapNfooter.css">
+	<!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	<script src="js/richmarker.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyClfeYcSf8itqqiLbLaKTljsW5z2FQ0TCQ"></script>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+	<!-- <section id="cryp-mapSection" style="background-image: url('/img/cubeBg.png');">
+  	<div>
+     	<h2 class="cryp-map__title">CCC Points</h2>
+    </div>
+
+  	<div class="cryp-map__wrapper">
+    	<div id="crypMap"></div>
+    </div>
+  </section> -->
+  
+  <footer class="crypFooter">
+  	<div class="crypFooter__head">
+  		<div class="crypFooter__logo">
+  			<img class="crypFooter__logo-img" src="img/cccpoint.svg" width="82" height="12" alt="cccpoint">
+  		</div>
+
+  		<div class="crypFooter__things footerThings">
+  			<div class="footerThings__social footerThing">
+  				<a class="footerThings__social-link" href="#"><i class="fa fa-twitter"></i></a>
+  				<a class="footerThings__social-link" href="#"><i class="fa fa-youtube"></i></a>
+  			</div>
+
+  			<div class="footerThings__download footerThing">
+  				<a class="footerThings__download-link" href="#">Download</a>
+  			</div>
+
+  			<div class="footerThings__payments footerThing">
+  				<img class="footerThings__payments-img" src="img/mastercard.svg" alt="Mastercard">
+  				<img class="footerThings__payments-img" src="img/visa.svg" alt="Visa">
+  			</div>
+
+  			<div class="footerThings__lang chooseLang footerThing">
+  				<label class="chooseLang__label">
+            <select class="chooseLang__select" id="chooseLang" name="chooseLang">
+                <option value="cz">CZ</option>
+                <option value="en">EN</option>
+            </select>
+          </label>
+  			</div>
+
+  			<div class="footerThings__portal">
+  				<a href="#" class="footerThings__portal-link">E-portal</a>
+  			</div>
+  		</div>
+  	</div>
+
+  	<div class="crypFooter__body footerBody">
+			<div class="footerBody__menu">
+				<div class="footerBody__menu-questions padding40">
+					<h2 class="footerBody__title">Potřebujete <br> poradit?</h2>
+
+					<form action="#" class="footerBody__form">
+						<input class="footerBody__input" name="backCallForHelp" id="backCallForHelp" value="" type="phone" placeholder="+420" required>
+            <button class="footerBody__form-submit" type="submit" name="backCallForHelpSubmit" id="backCallForHelpSubmit"></button>
+					</form>
+				</div>
+
+				<div class="footerBody__menu-lists">
+					<ul class="footerMenu padding40">
+						<li><a href="#" class="footerMenu__link">Home</a></li>
+						<li><a href="#" class="footerMenu__link">O nás</a></li>
+						<li><a href="#" class="footerMenu__link">Služby</a></li>
+						<li><a href="#" class="footerMenu__link">Pro klienty</a></li>
+						<li><a href="#" class="footerMenu__link">Spolupráce</a></li>
+						<li><a href="#" class="footerMenu__link">Aktuality</a></li>
+						<li><a href="#" class="footerMenu__link">Faq</a></li>
+						<li><a href="#" class="footerMenu__link">Kontakty</a></li>
+					</ul>
+
+					<ul class="footerMenu padding40">
+						<li><a href="#" class="footerMenu__link">Home</a></li>
+						<li><a href="#" class="footerMenu__link">O nás</a></li>
+						<li><a href="#" class="footerMenu__link">Služby</a></li>
+						<li><a href="#" class="footerMenu__link">Pro klienty</a></li>
+						<li><a href="#" class="footerMenu__link">Spolupráce</a></li>
+						<li><a href="#" class="footerMenu__link">Aktuality</a></li>
+						<li><a href="#" class="footerMenu__link">Faq</a></li>
+						<li><a href="#" class="footerMenu__link">Kontakty</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="footerBody__subscribe padding40x30">
+				<h2 class="footerBody__title">Zůstat <br />v obraze</h2>
+
+				<form action="#" class="footerBody__form">
+					<input class="footerBody__input" name="subscribe" id="subscribe" value="" type="phone" placeholder="@" required>
+          <button class="footerBody__form-submit" type="submit" name="subscribeSubmit" id="subscribeSubmit"></button>
+				</form>
+			</div>
+  	</div>
+
+  	<div class="crypFooter__bot">
+  		<div class="crypFooter__bot-logo">
+  			<a href="#">
+  				<img src="img/321CreativeCrew.svg" width="125" height="35" alt="">
+  			</a>
+  		</div>
+
+  		<div class="crypFooter__bot-contacts footerContacts">
+  			<div class="footerContacts__address">
+  				<span class="footerContacts__address-text">Crypcoinum s.r.o. | Komenského 9, 602 00 Brno, Česká republika</span>
+  			</div>
+
+  			<div class="footerContacts__links">
+  				<a class="footerContacts__address-text" href="tel:+420000000000">telefon: +420 000 000 000</a>
+  				<a class="footerContacts__address-text" href="mailto:info@cccpoint.cz">e-mail: info@cccpoint.cz</a>
+  			</div>
+  		</div>
+  	</div>
+  </footer>
+</body>
+</html>
