@@ -196,3 +196,204 @@ header {
 [class*="col"] {
 	flex: auto;
 }
+
+/*-----crypto-mining section-----*/
+.crypto-mining{
+	position: relative;
+	background: #283037;
+	padding: 40px 0;
+
+}
+
+.crypto-mining-wrapper{
+	padding: 0 14%;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.crypto-mining-title{
+	font-size: 10px;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 0.4em;
+	margin-bottom: 15px;
+	padding: 40px 15px;
+}
+.crypto-mining-title:before{
+	content: '_';
+	color: inherit;
+	font-size: inherit;
+	position: relative;
+	display: inline-block
+}
+.crypto-mining-item{
+	background: #fff;
+	margin: 0 15px;
+	padding: 15px;
+	width: 240px;
+}
+.crypto-mining-smallTitle{
+	color: #0DCFFF ;
+	font-size: 10px;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 0.4em;
+	margin-bottom: 15px;
+}
+.crypto-mining-link{
+	position: relative;
+	font-size: 1.57em;
+	font-weight: 900;
+	text-align: inherit;
+	color: #1B161D;
+	display: inline-block;
+}
+.crypto-mining-link:hover{
+	color: #1B161D;
+}
+.crypto-mining-link:visited{
+	color: #1B161D;
+}
+.crypto-mining-link:active{
+	color: #1B161D;
+}
+.crypto-mining-content{
+	padding: 15px;
+}
+.crypto-mining-img{
+	padding: 15px;
+}
+.crypto-btn{
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	width: auto;
+	height: auto;
+	min-height: 36px;
+	font-size: 11px;
+	font-weight: 800;
+	letter-spacing: 0.3em;
+	text-transform: uppercase;
+	text-align: center;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	padding: 11px 15px 10px 15px;
+	margin: 15px 15px 0 15px;
+	background: none;
+	border-color: inherit;
+	overflow: hidden;
+	color: #fff;
+	background: #0ED0FF;
+	transition: all 0.3s ease-in;
+}
+.crypto-btn:hover{
+	background: #fff;
+	transition: all 0.3s ease-in;
+}
+.padding-t-b{
+	margin: 40px 15px;
+}
+
+.owl-nav {
+	width: 100%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 38%;
+	left: 50%;
+}
+.owl-nav .owl-prev {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	z-index: 9;
+	left: 70px;
+}
+.owl-nav .owl-next {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	right: 70px;
+	z-index: 9;
+	color: #fff;
+}
+.owl-nav .owl-prev::before {
+	content: '\f104';
+	font-family: 'FontAwesome';
+	position: absolute;
+	top: 4px;
+	left: 14px;
+	color: #0DCFFF;
+	font-size: 30px;
+}
+.owl-nav .owl-next::before {
+	content: '\f105';
+	font-family: 'FontAwesome';
+	position: absolute;
+	top: 4px;
+	right: 14px;
+	color: #0DCFFF;
+	font-size: 30px;
+}
+
+
+.crypto-graphs{
+	position: relative;
+	padding: 70px 0;
+	background-image: url(../img/cubeBg.png);
+	background-repeat: repeat;
+	background-size: auto;
+}
+.crypto-graphs-wrap{
+	position: relative;
+	padding: 40px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	background: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,.25);
+}
+.crypto-graphs-title{
+	color: #0DCFFF ;
+	font-size: 10px;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 0.4em;
+	margin-bottom: 15px;
+}
+.crypto-graphs-title:before{
+	content: '_';
+	color: inherit;
+	font-size: inherit;
+	position: relative;
+	display: inline-block;
+}
+.divTable {
+	display: table;
+	width: 100%;
+	padding: 10px;
+}
+.divTableBody {
+	display: table-row-group;
+}
+.divTableRow {
+	display: table-row;
+}
+#currencyTable .divTableCell {
+	font-weight: 900;
+}
+.divTableCell, .divTableHead {
+	display: table-cell;
+	padding: 8px 15px;
+	line-height: 1;
+}
+.redText {
+	color: #E2001A;
+}
+.greenText {
+	color: #41D57D;
+}
+.crypto-graphs-bottom{
+	padding: 40px 0 0 0;
+	margin-bottom: -40px;
+}
