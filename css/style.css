@@ -1012,6 +1012,14 @@ svg path.hidden {
 	margin-bottom: -40px;
 }
 
+.cryp-mapSection {
+	background-size: initial;
+	background-repeat: repeat;
+}
+
+.smallTitle_center {
+	text-align: center;
+}
 
 .crypFooter {
 	background-color: #131322;
