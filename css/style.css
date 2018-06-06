@@ -70,7 +70,6 @@ header {
 	background-position: bottom;
 	background-size: auto;
 	background-repeat: no-repeat;
-	
 }
 
 .crypto-articles .more {
@@ -259,6 +258,7 @@ header {
 
 .normalWrap {
 	max-width: 1020px;
+	margin: 0 auto;
 }
 
 .biggerWrap {
@@ -1360,4 +1360,34 @@ svg path.hidden {
 	-ms-animation: pulse 1s infinite;
 	-o-animation: pulse 1s infinite;
 	animation: pulse 1s infinite;
+}
+
+.crypto-articles, 
+.crypto-callback,
+.crypto-mining,
+section.crypto-graphs {
+	height: 100vh;
+	display: table;
+	vertical-align: middle;
+    width: 100%;
+}
+
+.crypto-articles .container, 
+.crypto-callback .container,
+.crypto-mining .container,
+section.crypto-graphs .container {
+	display: table-cell;
+}
+
+@media (max-width: 767px) {
+	.crypto-articles, 
+	.crypto-callback,
+	.crypto-mining,
+	.crypto-graphs {
+		height: auto;
+	}
+}
+
+section.crypto-graphs .container .row {
+	margin: 0 15px;
 }
