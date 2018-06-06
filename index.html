@@ -11,97 +11,898 @@
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<header></header>
-	<section></section>
-	<section></section>
-	<section class="crypto-articles">
-		<div class="container">
-			<div class="row">
-				<div class="crypto-main-articles col-lg-6 col-12">
-					<div class="row">
-						<h2 class="smallTitle">Články</h2>
+<header class="crypto-header">
+  	<div class="container biggerWrap">
+	    <div class="row">
+	      <div class="col-md-12 crypto-header__top">
+	        <div class="crypto-header__logo">
+		        <a href="/" title="CCC Point" class="logo">
+		            <img src="img/logo-cccpoint.svg" class="inject-me" />
+		        </a>
+	        </div>
+	        <div class="crypto-header__wrap">
+	          <div class="row crypto-header__wrap-top">
+	            <nav class="crypto-header__nav">
+	              <a href="#" class="crypto-header__link"><i class="fa fa-home"></i>Home</a>
+	              <a href="#" class="crypto-header__link"><i class="fa fa-user-o"></i>O nás</a>
+	              <a href="#" class="crypto-header__link"><i class="fa fa-cogs"></i>Služby</a>
+	              <a href="#" class="crypto-header__link"><i class="fa fa-newspaper-o"></i>Aktuality</a>
+	              <a href="#" class="crypto-header__link"><i class="fa fa-envelope-o"></i>Kontakty</a>
+	            </nav>
+	            <div class="crypto-header__payment">
+	              <div class="crypto-header__social">
+	                <a href="#" title="CCC Point na Twitter-i" class="crypto-header__social-link"><i class="fa fa-twitter"></i></a>
+	                <a href="#" title="CCC Point na YouTube" class="crypto-header__social-link"><i class="fa fa-youtube"></i></a>
+	              </div>
+	              <div class="viza">
+	               	<img src="img/mastercard.svg" alt="Master Card" class="inject-me" />
+	                <img src="img/visa.svg" alt="Visa" class="inject-me" />
+	              </div>
+	              <select class="crypto-language-select">
+	                <option value="cz">CZ</option>
+	                <option value="en">EN</option>
+	              </select>
+	              <a href="#" title="E-portál" class="button button-main"><span>E-portál</span></a>
+	            </div>
+	          </div>
+	          <div class="row crypto-header__wrap-bottom">
+	            <nav class="crypto-header__nav">
+	              <a href="#" title="Těžba" class="crypto-header__link">Těžba</a>
+	              <a href="#" title="Trading" class="crypto-header__link">Trading</a>
+	              <a href="#" title="Směnárna" class="crypto-header__link">Směnárna</a>
+	              <a href="#" title="Trezor" class="crypto-header__link">Trezor</a>
+	            </nav>
+	            <div class="crypto-header__account">Krypto účet</div>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+	    <div class="row">
+	      <div class="col-md-12 crypto-header__bottom">
+	        <span class="crypto-header__subtitle">Těžba a obchodování</span>
+	        <h1 class="crypto-header__title">Vstupte do kryptosvěta bezpečně a s klidem</h1>
+	        <p class="crypto-header__desc">Pomáháme našim klientům jednoduše a bez starostí těžit a obchodovat krypto měny</p>
+	        <div class="crypto-header__actions">
+	          <a href="#" title="E-portál" class="button button-colorless"><span>Příhlásit se</span></a>
+	          <a href="#" title="Registrovat" class="button button-main"><span>Registrovat</span></a>
+	        </div>
+	      </div>
+	    </div>
+    </div>
+</header>
+<section class="crypto-services">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 crypto-services__wrap">
+        <div class="col-md-3 col-sm-6 col-12 crypto-services__item">
+          <div class="crypto-services__item-img">
+            <div class="col icon72">
+	            <img src="img/tezba.svg" alt="Těžba" class="inject-me"/>
+	        </div>
+          </div>
+          <h2 class="crypto-services__item-title" title="Těžba">Těžba</h2>
+          <div class="crypto-services__item--hidden">
+            <div class="crypto-services__item--hidden-img">
+                <div class="col icon48 padding0">
+	            	<img src="img/tezba.svg" alt="Těžba" class="inject-me"/>
+	        	</div>
+            </div>
+            <h3 class="crypto-services__item--hidden-title">Těžba</h3>
+            <span class="crypto-services__item--hidden-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, eligendi est ipsa nesciunt nostrum perspiciatis placeat quas quasi quod veritatis!</span>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-12 crypto-services__item">
+          <div class="crypto-services__item-img">
+            <div class="col icon">
+                <img src="img/trading.svg" alt="Trading" class="inject-me"/>
+            </div>
+          </div>
+          <h2 class="crypto-services__item-title" title="Trading">Trading</h2>
+          <div class="crypto-services__item--hidden">
+            <div class="crypto-services__item--hidden-img">
+              <div class="col icon48 padding0">
+            	<img src="img/trading.svg" alt="Trading" class="inject-me"/>
+        	</div>
+            </div>
+            <h3 class="crypto-services__item--hidden-title">Trading</h3>
+            <span class="crypto-services__item--hidden-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam delectus dolore eaque in ipsum nesciunt numquam obcaecati quibusdam quos voluptas.</span>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-12 crypto-services__item">
+          <div class="crypto-services__item-img">
+            <div class="col icon48 padding0">
+            	<img src="img/smenarna.svg" alt="Směnárna" class="inject-me"/>
+        	</div>
+          </div>
+          <h2 class="crypto-services__item-title" title="Směnárna">Směnárna</h2>
+          <div class="crypto-services__item--hidden">
+            <div class="crypto-services__item--hidden-img">
+              <div class="col icon48 padding0">
+            	<img src="img/smenarna.svg" alt="Směnárna" class="inject-me"/>
+        	</div>
+            </div>
+            <h3 class="crypto-services__item--hidden-title">Směnárna</h3>
+            <span class="crypto-services__item--hidden-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci aliquam aliquid amet animi atque commodi eligendi, est iste totam.</span>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-12 crypto-services__item">
+          <div class="crypto-services__item-img">
+            <div class="col icon48 padding0">
+	        	<img src="img/trezor.svg" alt="Trezor" class="inject-me"/>
+	    	</div>
+          </div>
+          <h2 class="crypto-services__item-title" title="Trezor">Trezor</h2>
+          <div class="crypto-services__item--hidden">
+            <div class="crypto-services__item--hidden-img">
+              <div class="col icon48 padding0">
+                	<img src="img/trezor.svg" alt="Trezor" class="inject-me"/>
+            	</div>
+            </div>
+            <h3 class="crypto-services__item--hidden-title">Trezor</h3>
+            <span class="crypto-services__item--hidden-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci eius error facilis illo magnam mollitia non quia reiciendis repellat repudiandae?</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="crypto-articles">
+	<div class="container">
+		<div class="row">
+			<div class="crypto-main-articles col-lg-6 col-12">
+				<div class="row">
+					<h2 class="smallTitle">Články</h2>
+				</div>
+				<div class="row">
+					<div class="crypto-articlesItem col-lg-6">
+						<div class="imageBg" style="background-image: url('img/jak-zacit.jpg');"></div>
+						<div class="col">
+                            <h2 class="smallTitle">Nejste si jistí</h2>	
+                            <h3 class="">Jak začít</h3>
+                            <a class="more" href="/clanky/jak-zacit" title="Více">Více</a>
+                        </div>
 					</div>
-					<div class="row">
-						<div class="crypto-articlesItem col-lg-6">
-							<div class="imageBg" style="background-image: url('img/jak-zacit.jpg');"></div>
-							<div class="col">
-	                            <h2 class="smallTitle">Nejste si jistí</h2>	
-	                            <h3 class="">Jak začít</h3>
-	                            <a class="more" href="/clanky/jak-zacit" title="Více">Více</a>
-	                        </div>
-						</div>
-						<div class="crypto-articlesItem col-lg-6">
-							<div class="imageBg" style="background-image: url('img/jak-to-funguje.jpg');"></div>
-							<div class="col">	
-	                            <h2 class="smallTitle">Doporučujeme</h2>	
-	                            <h3>Jak to funguje</h3>
-	                            <a class="more" href="/clanky/jak-to-funguje" title="Více">Více</a>
-	                        </div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="crypto-articlesItem col-lg-12">
-							<div class="imageBg" style="background-image: url('img/clanek-o-distribuci.jpg');"></div>
-							<div class="col">
-	                            <h2 class="smallTitle">Znalosti</h2>	
-	                            <h3>Článek o distribuci výkonu<br> v poměru k zisku na daných<br> kryptoměnách</h3>
-	                            <a class="more" href="/clanky/clanek-o-distribuci" title="Více">Více</a>
-	                        </div>
-						</div>
-					</div>
-					<div class="row justify-content-end">
-						<a class="button" href="/clanky" title="Všechny články">
-							<span>Všechny články</span>
-						</a>
+					<div class="crypto-articlesItem col-lg-6">
+						<div class="imageBg" style="background-image: url('img/jak-to-funguje.jpg');"></div>
+						<div class="col">	
+                            <h2 class="smallTitle">Doporučujeme</h2>	
+                            <h3>Jak to funguje</h3>
+                            <a class="more" href="/clanky/jak-to-funguje" title="Více">Více</a>
+                        </div>
 					</div>
 				</div>
-				<div class="col-lg-6 crypto-main-news col-12">
-					<div class="row">
-						<h2 class="smallTitle">Aktuality</h2>
+				<div class="row">
+					<div class="crypto-articlesItem col-lg-12">
+						<div class="imageBg" style="background-image: url('img/clanek-o-distribuci.jpg');"></div>
+						<div class="col">
+                            <h2 class="smallTitle">Znalosti</h2>	
+                            <h3>Článek o distribuci výkonu<br> v poměru k zisku na daných<br> kryptoměnách</h3>
+                            <a class="more" href="/clanky/clanek-o-distribuci" title="Více">Více</a>
+                        </div>
 					</div>
-					<div class="row">
-						<div class="crypto-news col-lg-12">
-                            <div class="itemNews">
-                            	<div class="row align-items-center">
-                            		<div class="col-md-4 col-12 itemNewsImg">
-                            		    <img src="img/aktualita-1.jpg" alt="">
-                            		</div>
-                            		<div class="col-md-8 col-12">
-                            		    <div class="date">1.9.2018</div> 
-                            		    <h2>Nadpis poslední aktuality</h2>
-                            		    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed diam nonummy nibh euismod...</p>
-                            		    <a class="more href="/aktuality/aktualita-1" title="Více">Celý článek</a>
-                            		</div>
-                            	</div>
-                            </div>
-                            <div class="itemNews">
-                        	    <div class="date">2.9.2018</div> 
-                        	    <h2><a href="/aktuality/aktualita-2" title="Nadpis předposlední aktuality">Nadpis předposlední aktuality</a></h2>
-                            </div>
-                            <div class="itemNews">
-                        	    <div class="date">1.9.2018</div> 
-                        	    <h2><a href="/aktuality/aktualita-3" title="Nadpis předposlední aktuality">Nadpis předposlední aktuality</a></h2>
-                            </div>
-						</div>
+				</div>
+				<div class="row justify-content-end">
+					<a class="button button-main" href="/clanky" title="Všechny články">
+						<span>Všechny články</span>
+					</a>
+				</div>
+			</div>
+			<div class="col-lg-6 crypto-main-news col-12">
+				<div class="row">
+					<h2 class="smallTitle">Aktuality</h2>
+				</div>
+				<div class="row">
+					<div class="crypto-news col-lg-12">
+                        <div class="itemNews">
+                        	<div class="row align-items-center">
+                        		<div class="col-md-4 col-12 itemNewsImg">
+                        		    <img src="img/aktualita-1.jpg" alt="">
+                        		</div>
+                        		<div class="col-md-8 col-12">
+                        		    <div class="date">1.9.2018</div> 
+                        		    <h2>Nadpis poslední aktuality</h2>
+                        		    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed diam nonummy nibh euismod...</p>
+                        		    <a class="more href="/aktuality/aktualita-1" title="Více">Celý článek</a>
+                        		</div>
+                        	</div>
+                        </div>
+                        <div class="itemNews">
+                    	    <div class="date">2.9.2018</div> 
+                    	    <h2><a href="/aktuality/aktualita-2" title="Nadpis předposlední aktuality">Nadpis předposlední aktuality</a></h2>
+                        </div>
+                        <div class="itemNews">
+                    	    <div class="date">1.9.2018</div> 
+                    	    <h2><a href="/aktuality/aktualita-3" title="Nadpis předposlední aktuality">Nadpis předposlední aktuality</a></h2>
+                        </div>
 					</div>
-					<div class="row justify-content-end">
-						<a class="button" href="/aktuality" title="Všechny aktuality">
-							<span>Všechny aktuality</span>
-						</a>
-					</div>
+				</div>
+				<div class="row justify-content-end">
+					<a class="button button-white" href="/aktuality" title="Všechny aktuality">
+						<span>Všechny aktuality</span>
+					</a>
 				</div>
 			</div>
 		</div>
-	</section>
-	<section></section>
-	<section></section>
-	<section></section>
-	<section></section>
-	<footer></footer>
-	<script src="js/jquery-3.3.1.min.js"></script>
-	<script src="js/bootstrap.bundle.min.js"></script>
+	</div>
+</section>
+<section class="crypto-callback">
+	<div class="container biggerWrap">
+		<div class="row justify-content-end">
+			<div class="crypto-block-callback col-12 col-md-6 col-lg-4">
+                <img src="img/logo-cccpoint.svg" class="inject-me" />
+                <h2 class="smallTitle">Pozvánka do CCC Pointu</h2>
+                <h3 class="bigTitle">Stavte<br />se na kávu</h3>
+                <p>Otevřeno od 10:00 do 22:00 hod. každý den<br />Konzultace v ceně kávy :)</p>
+        		<a class="button button-colorless" href="/najit-pobocku" title="Najít pobočku"><span>Najít pobočku</span></a>
+        		<a class="button button-white" href="tel:+420000000000" title="Zavolat"><span>Zavolat</span></a>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="crypto-mining">
+    <div class="container ">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="crypto-mining-title">Těžební úly</h2>
+            </div>
+        </div>
+        <div class="crypto-mining-wrapper text-center  owl-carousel">
+            <div class=" crypto-mining-item">
+                <div class="crypto-mining-img">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="120px" height="120px" viewBox="0 0 120 120" enable-background="new 0 0 120 120" xml:space="preserve" class="injected-svg inject-me">
+<path fill="#141820" d="M69.005,58.769c-1.028-1.295-2.601-1.938-4.205-2.188c-0.441-1.971,0.028-4.181,0.97-5.977  c0.736-0.18,1.708-0.454,1.733-1.39c0.271-1.178-1.314-2.336-2.228-1.354c-0.867,0.642-0.112,1.758-0.538,2.58  c-0.893,1.947-1.186,4.118-1.033,6.25c-0.631,0.175-1.25,0.367-1.883,0.578c-1.719-3.09-1.779-7.022-0.062-10.123  c0.841,0.156,1.83-0.244,1.904-1.189c0.323-1.126-1.138-2.38-2.089-1.511c-0.923,0.553-0.302,1.715-0.787,2.5  c-1.779,3.363-1.613,7.587,0.236,10.896c-1.606,1.318-2.509,3.332-2.59,5.407c1.692,0.009,3.374-0.005,5.068,0.009  c0.065-1.497,1.261-2.968,2.832-2.845c1.452,0.14,2.344,1.492,2.456,2.849c0.62-0.009,1.251-0.013,1.866-0.021  C70.563,61.632,70.071,60.004,69.005,58.769z M26.804,65.394c-1.426,3.455-2.854,6.916-4.304,10.361  c0.272,0.013,0.818,0.029,1.082,0.029c0.397-0.93,0.788-1.847,1.165-2.783h5.127c0.375,0.879,0.668,1.804,1.119,2.648  c0.293,0.04,0.88,0.101,1.173,0.135c-1.443-3.457-2.889-6.92-4.313-10.396C27.501,65.389,27.155,65.389,26.804,65.394z   M25.148,71.963c0.74-1.745,1.453-3.503,2.172-5.261c0.694,1.758,1.418,3.516,2.157,5.261  C28.032,71.968,26.585,71.968,25.148,71.963z M40.97,73.714c-1.971-2.764-3.971-5.524-5.965-8.265  c-0.339,0.004-0.674,0.008-1.013,0.008c0.013,3.441,0.008,6.879,0.004,10.319c0.262,0,0.774-0.004,1.033-0.004  c-0.021-2.841-0.005-5.661-0.013-8.484c1.734,2.344,3.431,4.716,5.143,7.088c0.491,0.625,0.872,1.593,1.846,1.457  c0.014-3.469-0.003-6.934,0.01-10.384c-0.346,0-0.699,0.004-1.045,0.004C40.977,68.199,40.977,70.95,40.97,73.714z M51.441,66.514  c-0.005-0.354-0.005-0.71-0.005-1.061c-2.477,0.044-4.957-0.092-7.423,0.062c-0.017,0.235-0.041,0.739-0.063,0.973  c1.079,0.018,2.152,0.026,3.23,0.013v9.284c0.269-0.008,0.806-0.017,1.075-0.021c-0.027-3.082-0.008-6.168-0.012-9.25  C49.313,66.505,50.376,66.505,51.441,66.514z M57.993,69.818c-0.796-1.482-1.641-2.916-2.479-4.365  c-0.743,0.004-1.491,0.004-2.238,0c0.005,3.445,0.005,6.887,0,10.327c0.677-0.004,1.358-0.008,2.04-0.008  c-0.021-2.25-0.004-4.479-0.018-6.724c0.911,1.471,1.797,2.945,2.678,4.435c0.896-1.493,1.801-2.973,2.686-4.466  c0.02,2.248,0.004,4.496,0.013,6.763c0.681-0.004,1.366-0.008,2.062-0.008c-0.017-3.441-0.013-6.878,0-10.315h-2.248  C59.653,66.911,58.831,68.369,57.993,69.818z M65.097,75.768c0.703,0.005,1.385,0.009,2.092,0.013c0-3.44-0.009-6.882,0.004-10.327  c-0.706,0.004-1.388,0.004-2.092,0.004C65.113,68.895,65.118,72.331,65.097,75.768z M75.892,65.457  c0.004,2.106,0.025,4.197-0.009,6.302c-1.479-2.104-2.938-4.221-4.421-6.306c-0.644,0.004-1.274,0.004-1.904,0  c-0.04,3.433-0.032,6.869-0.049,10.306c0.709,0.009,1.405,0.014,2.1,0.021v-6.565c1.543,2.175,3.062,4.391,4.615,6.569  c0.586-0.004,1.172-0.017,1.758-0.025c-0.02-3.441,0.037-6.882-0.032-10.322C77.253,65.457,76.582,65.457,75.892,65.457z   M87.434,65.457h-7.195c0.008,3.441,0.013,6.879-0.004,10.315c2.398,0.008,4.798,0,7.199,0.004  c-0.005-0.683-0.005-1.361-0.005-2.035c-1.701,0.015-3.421,0.013-5.127,0.013c0-0.73-0.002-1.457-0.011-2.18h4.759  c-0.005-0.67-0.005-1.335,0-2.005c-1.596,0-3.169,0-4.748,0.004c0-0.705,0-1.406-0.002-2.123c1.699,0.007,3.428,0.004,5.129,0.007  C87.429,66.785,87.429,66.116,87.434,65.457z M95.179,72.122c1.214-0.601,2.106-1.853,1.992-3.258  c0.146-1.599-1.067-3.156-2.674-3.337c-1.721-0.161-3.479-0.034-5.21-0.07c0.009,3.441,0.014,6.879-0.004,10.319  c0.704-0.004,1.388-0.009,2.097-0.018c-0.022-1.094-0.022-2.192-0.018-3.292c0.539,0.005,1.103,0.009,1.646,0.013  c0.674,1.095,1.356,2.189,2.03,3.288c0.813,0.005,1.63,0.005,2.461,0.005C96.703,74.562,95.955,73.329,95.179,72.122z M94.241,70.31  c-0.953,0.214-1.921,0.096-2.879,0.126c0-0.989-0.005-1.976,0-2.946c0.975,0.035,2-0.157,2.929,0.165  C95.381,68.094,95.337,69.893,94.241,70.31z"></path>
+</svg>
+                </div>
+                <div class="crypto-mining-content">
+                    <h2 class="crypto-mining-smallTitle">Těžební úl</h2>
+                    <a href="/antminerx3" title="Antminer X3" class="crypto-mining-link">Antminer X3</a></h3>
+                </div>
+            </div>
+            <div class=" crypto-mining-item">
+                <div class="crypto-mining-img">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="120px" height="120px" viewBox="0 0 120 120" enable-background="new 0 0 120 120" xml:space="preserve" class="injected-svg inject-me">
+<g>
+	<g>
+		<circle fill="#FEC028" cx="60" cy="60" r="50.333"></circle>
+	</g>
+	<path fill="#FFFFFF" d="M82.617,65.313c-0.363-2.589-1.635-4.587-3.904-5.904c-1.045-0.59-2.181-0.998-3.361-1.498   c0.137-0.091,0.228-0.182,0.318-0.227c5.676-2.906,5.176-11.671,1.044-14.668c-1.68-1.226-3.542-1.998-5.494-2.452   c-1.407-0.317-2.815-0.545-4.269-0.771c0-2.543,0.045-6.04,0.045-8.855h-5.268c-0.045,2.771-0.045,6.176-0.09,8.674   c-1.499,0-2.861,0-4.269,0c0-2.498,0.045-5.903,0.045-8.674h-5.313c-0.045,2.815-0.045,6.313-0.091,8.81   c-3.633-0.045-7.129-0.045-10.762-0.091c0,1.953-0.045,3.77-0.045,5.677c0.772,0,1.453,0,2.088,0.045c0.682,0,1.363,0,1.998,0.045   c1.862,0.137,2.816,1.182,2.816,2.998c-0.045,7.583-0.136,15.212-0.227,22.795c0,1.681-0.727,2.316-2.361,2.316   c-1.181,0-2.361,0-3.542,0c-0.363,2.134-0.727,4.178-1.09,6.312c3.587,0.046,7.129,0.091,10.762,0.137   c0,2.725-0.045,6.175-0.045,9.036h5.313c0.046-2.861,0.046-6.221,0.091-8.9c1.499,0.046,2.861,0.091,4.269,0.137   c0,2.725-0.047,6.039-0.047,8.81h5.313c0.046-2.861,0.046-6.222,0.091-8.855c0.182-0.045,0.318-0.045,0.455-0.091   c2.543-0.408,5.131-0.636,7.583-1.226c3.224-0.817,5.767-2.68,7.129-5.858C82.799,70.58,83.025,67.992,82.617,65.313z    M57.415,45.878c3.315,0,6.539-0.272,9.536,1.09c1.998,0.862,2.997,2.497,2.861,4.45c-0.137,2.089-1.317,3.587-3.451,4.269   c-2.907,0.953-5.949,0.908-9.083,0.771C57.37,53.007,57.37,49.556,57.415,45.878z M68.994,72.396   c-2.951,1.317-6.039,1.317-9.172,1.362c-0.863,0-1.726-0.045-2.68-0.045c0.046-3.951,0.091-7.811,0.137-11.762   c4.042,0,8.038-0.317,11.807,1.363c1.952,0.862,3.088,2.36,3.088,4.586C72.174,70.126,70.947,71.534,68.994,72.396z"></path>
+</g>
+</svg>
+                </div>
+                <div class="crypto-mining-content">
+                    <h2 class="crypto-mining-smallTitle">Těžební úl</h2>
+                    <a href="/antminerx3" title="Antminer X3" class="crypto-mining-link">Bitcoin</a></h3>
+                </div>
+            </div>
+            <div class=" crypto-mining-item">
+                <div class="crypto-mining-img">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="120px" height="120px" viewBox="0 0 120 120" enable-background="new 0 0 120 120" xml:space="preserve" class="injected-svg inject-me">
+<g>
+	<g>
+		<circle fill="#FF6600" cx="60" cy="60" r="50.333"></circle>
+	</g>
+	<path fill="#FFFFFF" d="M94.977,53.729c-1.555-8.441-5.555-15.496-12.164-20.939c-8.664-7.164-18.662-9.72-29.659-7.609   c-8.332,1.611-15.163,5.777-20.551,12.275c-4.888,5.832-7.498,12.608-8.054,20.162c-0.333,4.498,0.222,8.831,1.5,13.107   c0.111,0.444,0.333,0.556,0.777,0.556h9.387c0.167,0,0.389-0.056,0.667-0.056V41.399c7.72,7.776,15.385,15.385,23.161,23.161   c7.721-7.72,15.385-15.329,23.05-23.105v29.771h9.997c0.5,0,0.667-0.166,0.834-0.611C95.588,65.061,96.032,59.45,94.977,53.729z    M75.37,59.673c-5.165,5.166-10.274,10.22-15.44,15.385c-5.11-5.109-10.22-10.219-15.385-15.385v18.773H29.659   c5.443,9.498,18.163,18.773,34.548,16.829c5.387-0.61,10.386-2.444,14.939-5.388c4.611-2.943,8.276-6.776,11.221-11.497H75.37   V59.673z"></path>
+</g>
+</svg>
+                </div>
+                <div class="crypto-mining-content">
+                    <h2 class="crypto-mining-smallTitle">Těžební úl</h2>
+                    <a href="/antminerx3" title="Antminer X3" class="crypto-mining-link">Monero</a></h3>
+                </div>
+            </div>
+            <div class=" crypto-mining-item">
+                <div class="crypto-mining-img">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="120px" height="120px" viewBox="0 0 120 120" enable-background="new 0 0 120 120" xml:space="preserve" class="injected-svg inject-me">
+<path fill="#141820" d="M69.005,58.769c-1.028-1.295-2.601-1.938-4.205-2.188c-0.441-1.971,0.028-4.181,0.97-5.977  c0.736-0.18,1.708-0.454,1.733-1.39c0.271-1.178-1.314-2.336-2.228-1.354c-0.867,0.642-0.112,1.758-0.538,2.58  c-0.893,1.947-1.186,4.118-1.033,6.25c-0.631,0.175-1.25,0.367-1.883,0.578c-1.719-3.09-1.779-7.022-0.062-10.123  c0.841,0.156,1.83-0.244,1.904-1.189c0.323-1.126-1.138-2.38-2.089-1.511c-0.923,0.553-0.302,1.715-0.787,2.5  c-1.779,3.363-1.613,7.587,0.236,10.896c-1.606,1.318-2.509,3.332-2.59,5.407c1.692,0.009,3.374-0.005,5.068,0.009  c0.065-1.497,1.261-2.968,2.832-2.845c1.452,0.14,2.344,1.492,2.456,2.849c0.62-0.009,1.251-0.013,1.866-0.021  C70.563,61.632,70.071,60.004,69.005,58.769z M26.804,65.394c-1.426,3.455-2.854,6.916-4.304,10.361  c0.272,0.013,0.818,0.029,1.082,0.029c0.397-0.93,0.788-1.847,1.165-2.783h5.127c0.375,0.879,0.668,1.804,1.119,2.648  c0.293,0.04,0.88,0.101,1.173,0.135c-1.443-3.457-2.889-6.92-4.313-10.396C27.501,65.389,27.155,65.389,26.804,65.394z   M25.148,71.963c0.74-1.745,1.453-3.503,2.172-5.261c0.694,1.758,1.418,3.516,2.157,5.261  C28.032,71.968,26.585,71.968,25.148,71.963z M40.97,73.714c-1.971-2.764-3.971-5.524-5.965-8.265  c-0.339,0.004-0.674,0.008-1.013,0.008c0.013,3.441,0.008,6.879,0.004,10.319c0.262,0,0.774-0.004,1.033-0.004  c-0.021-2.841-0.005-5.661-0.013-8.484c1.734,2.344,3.431,4.716,5.143,7.088c0.491,0.625,0.872,1.593,1.846,1.457  c0.014-3.469-0.003-6.934,0.01-10.384c-0.346,0-0.699,0.004-1.045,0.004C40.977,68.199,40.977,70.95,40.97,73.714z M51.441,66.514  c-0.005-0.354-0.005-0.71-0.005-1.061c-2.477,0.044-4.957-0.092-7.423,0.062c-0.017,0.235-0.041,0.739-0.063,0.973  c1.079,0.018,2.152,0.026,3.23,0.013v9.284c0.269-0.008,0.806-0.017,1.075-0.021c-0.027-3.082-0.008-6.168-0.012-9.25  C49.313,66.505,50.376,66.505,51.441,66.514z M57.993,69.818c-0.796-1.482-1.641-2.916-2.479-4.365  c-0.743,0.004-1.491,0.004-2.238,0c0.005,3.445,0.005,6.887,0,10.327c0.677-0.004,1.358-0.008,2.04-0.008  c-0.021-2.25-0.004-4.479-0.018-6.724c0.911,1.471,1.797,2.945,2.678,4.435c0.896-1.493,1.801-2.973,2.686-4.466  c0.02,2.248,0.004,4.496,0.013,6.763c0.681-0.004,1.366-0.008,2.062-0.008c-0.017-3.441-0.013-6.878,0-10.315h-2.248  C59.653,66.911,58.831,68.369,57.993,69.818z M65.097,75.768c0.703,0.005,1.385,0.009,2.092,0.013c0-3.44-0.009-6.882,0.004-10.327  c-0.706,0.004-1.388,0.004-2.092,0.004C65.113,68.895,65.118,72.331,65.097,75.768z M75.892,65.457  c0.004,2.106,0.025,4.197-0.009,6.302c-1.479-2.104-2.938-4.221-4.421-6.306c-0.644,0.004-1.274,0.004-1.904,0  c-0.04,3.433-0.032,6.869-0.049,10.306c0.709,0.009,1.405,0.014,2.1,0.021v-6.565c1.543,2.175,3.062,4.391,4.615,6.569  c0.586-0.004,1.172-0.017,1.758-0.025c-0.02-3.441,0.037-6.882-0.032-10.322C77.253,65.457,76.582,65.457,75.892,65.457z   M87.434,65.457h-7.195c0.008,3.441,0.013,6.879-0.004,10.315c2.398,0.008,4.798,0,7.199,0.004  c-0.005-0.683-0.005-1.361-0.005-2.035c-1.701,0.015-3.421,0.013-5.127,0.013c0-0.73-0.002-1.457-0.011-2.18h4.759  c-0.005-0.67-0.005-1.335,0-2.005c-1.596,0-3.169,0-4.748,0.004c0-0.705,0-1.406-0.002-2.123c1.699,0.007,3.428,0.004,5.129,0.007  C87.429,66.785,87.429,66.116,87.434,65.457z M95.179,72.122c1.214-0.601,2.106-1.853,1.992-3.258  c0.146-1.599-1.067-3.156-2.674-3.337c-1.721-0.161-3.479-0.034-5.21-0.07c0.009,3.441,0.014,6.879-0.004,10.319  c0.704-0.004,1.388-0.009,2.097-0.018c-0.022-1.094-0.022-2.192-0.018-3.292c0.539,0.005,1.103,0.009,1.646,0.013  c0.674,1.095,1.356,2.189,2.03,3.288c0.813,0.005,1.63,0.005,2.461,0.005C96.703,74.562,95.955,73.329,95.179,72.122z M94.241,70.31  c-0.953,0.214-1.921,0.096-2.879,0.126c0-0.989-0.005-1.976,0-2.946c0.975,0.035,2-0.157,2.929,0.165  C95.381,68.094,95.337,69.893,94.241,70.31z"></path>
+</svg>
+                </div>
+                <div class="crypto-mining-content">
+                    <h2 class="crypto-mining-smallTitle">Těžební úl</h2>
+                    <a href="/antminerx3" title="Antminer X3" class="crypto-mining-link">Antminer X3</a></h3>
+                </div>
+            </div>
+            <div class=" crypto-mining-item">
+                <div class="crypto-mining-img">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="120px" height="120px" viewBox="0 0 120 120" enable-background="new 0 0 120 120" xml:space="preserve" class="injected-svg inject-me">
+<g>
+	<g>
+		<circle fill="#FEC028" cx="60" cy="60" r="50.333"></circle>
+	</g>
+	<path fill="#FFFFFF" d="M82.617,65.313c-0.363-2.589-1.635-4.587-3.904-5.904c-1.045-0.59-2.181-0.998-3.361-1.498   c0.137-0.091,0.228-0.182,0.318-0.227c5.676-2.906,5.176-11.671,1.044-14.668c-1.68-1.226-3.542-1.998-5.494-2.452   c-1.407-0.317-2.815-0.545-4.269-0.771c0-2.543,0.045-6.04,0.045-8.855h-5.268c-0.045,2.771-0.045,6.176-0.09,8.674   c-1.499,0-2.861,0-4.269,0c0-2.498,0.045-5.903,0.045-8.674h-5.313c-0.045,2.815-0.045,6.313-0.091,8.81   c-3.633-0.045-7.129-0.045-10.762-0.091c0,1.953-0.045,3.77-0.045,5.677c0.772,0,1.453,0,2.088,0.045c0.682,0,1.363,0,1.998,0.045   c1.862,0.137,2.816,1.182,2.816,2.998c-0.045,7.583-0.136,15.212-0.227,22.795c0,1.681-0.727,2.316-2.361,2.316   c-1.181,0-2.361,0-3.542,0c-0.363,2.134-0.727,4.178-1.09,6.312c3.587,0.046,7.129,0.091,10.762,0.137   c0,2.725-0.045,6.175-0.045,9.036h5.313c0.046-2.861,0.046-6.221,0.091-8.9c1.499,0.046,2.861,0.091,4.269,0.137   c0,2.725-0.047,6.039-0.047,8.81h5.313c0.046-2.861,0.046-6.222,0.091-8.855c0.182-0.045,0.318-0.045,0.455-0.091   c2.543-0.408,5.131-0.636,7.583-1.226c3.224-0.817,5.767-2.68,7.129-5.858C82.799,70.58,83.025,67.992,82.617,65.313z    M57.415,45.878c3.315,0,6.539-0.272,9.536,1.09c1.998,0.862,2.997,2.497,2.861,4.45c-0.137,2.089-1.317,3.587-3.451,4.269   c-2.907,0.953-5.949,0.908-9.083,0.771C57.37,53.007,57.37,49.556,57.415,45.878z M68.994,72.396   c-2.951,1.317-6.039,1.317-9.172,1.362c-0.863,0-1.726-0.045-2.68-0.045c0.046-3.951,0.091-7.811,0.137-11.762   c4.042,0,8.038-0.317,11.807,1.363c1.952,0.862,3.088,2.36,3.088,4.586C72.174,70.126,70.947,71.534,68.994,72.396z"></path>
+</g>
+</svg>
+                </div>
+                <div class="crypto-mining-content">
+                    <h2 class="crypto-mining-smallTitle">Těžební úl</h2>
+                    <a href="/antminerx3" title="Antminer X3" class="crypto-mining-link">Bitcoin</a></h3>
+                </div>
+            </div>
+            <div class=" crypto-mining-item">
+                <div class="crypto-mining-img">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="120px" height="120px" viewBox="0 0 120 120" enable-background="new 0 0 120 120" xml:space="preserve" class="injected-svg inject-me">
+<g>
+	<g>
+		<circle fill="#FF6600" cx="60" cy="60" r="50.333"></circle>
+	</g>
+	<path fill="#FFFFFF" d="M94.977,53.729c-1.555-8.441-5.555-15.496-12.164-20.939c-8.664-7.164-18.662-9.72-29.659-7.609   c-8.332,1.611-15.163,5.777-20.551,12.275c-4.888,5.832-7.498,12.608-8.054,20.162c-0.333,4.498,0.222,8.831,1.5,13.107   c0.111,0.444,0.333,0.556,0.777,0.556h9.387c0.167,0,0.389-0.056,0.667-0.056V41.399c7.72,7.776,15.385,15.385,23.161,23.161   c7.721-7.72,15.385-15.329,23.05-23.105v29.771h9.997c0.5,0,0.667-0.166,0.834-0.611C95.588,65.061,96.032,59.45,94.977,53.729z    M75.37,59.673c-5.165,5.166-10.274,10.22-15.44,15.385c-5.11-5.109-10.22-10.219-15.385-15.385v18.773H29.659   c5.443,9.498,18.163,18.773,34.548,16.829c5.387-0.61,10.386-2.444,14.939-5.388c4.611-2.943,8.276-6.776,11.221-11.497H75.37   V59.673z"></path>
+</g>
+</svg>
+                </div>
+                <div class="crypto-mining-content">
+                    <h2 class="crypto-mining-smallTitle">Těžební úl</h2>
+                    <a href="/antminerx3" title="Antminer X3" class="crypto-mining-link">Monero</a></h3>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-12 ">
+                <a href="#" class="crypto-btn padding-t-b">Dostupné úly</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="crypto-graphs">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <h2 class="crypto-graphs-title">KURZY KRYPTOMĚNY</h2>
+                <div class="crypto-graphs-wrap">
+                    <table class="crypto-graphs">
+                        <div id="currencyTable" class="divTable">
+                            <div class="divTableBody">
+                                <div class="divTableRow">
+                                    <div class="divTableCell">Bitcoin</div>
+                                    <div class="divTableCell redText">7,963.71$</div>
+                                    <div class="divTableCell redText">-0.97%</div>
+                                    <div class="divTableCell">09:15</div>
+                                </div>
+                                <div class="divTableRow">
+                                    <div class="divTableCell">Ethereum / Bitcoin</div>
+                                    <div class="divTableCell redText">642.70$</div>
+                                    <div class="divTableCell redText">-0.78%</div>
+                                    <div class="divTableCell">09:14</div>
+                                </div>
+                                <div class="divTableRow">
+                                    <div class="divTableCell">Bitcoin Cash</div>
+                                    <div class="divTableCell greenText">2,963.52$</div>
+                                    <div class="divTableCell greenText">+1.45%</div>
+                                    <div class="divTableCell">09:15</div>
+                                </div>
+                                <div class="divTableRow">
+                                    <div class="divTableCell">Ethereum</div>
+                                    <div class="divTableCell redText">963.26$</div>
+                                    <div class="divTableCell redText">-0.97%</div>
+                                    <div class="divTableCell">09:15</div>
+                                </div>
+                                <div class="divTableRow">
+                                    <div class="divTableCell">Bitcoin</div>
+                                    <div class="divTableCell redText">7,963.71$</div>
+                                    <div class="divTableCell redText">-0.97%</div>
+                                    <div class="divTableCell">09:15</div>
+                                </div>
+                                <div class="divTableRow">
+                                    <div class="divTableCell">Ethereum / Bitcoin</div>
+                                    <div class="divTableCell redText">642.70$</div>
+                                    <div class="divTableCell redText">-0.78%</div>
+                                    <div class="divTableCell">09:14</div>
+                                </div>
+                                <div class="divTableRow">
+                                    <div class="divTableCell">Bitcoin Cash</div>
+                                    <div class="divTableCell greenText">2,963.52$</div>
+                                    <div class="divTableCell greenText">+1.45%</div>
+                                    <div class="divTableCell">09:15</div>
+                                </div>
+                                <div class="divTableRow">
+                                    <div class="divTableCell">Ethereum</div>
+                                    <div class="divTableCell redText">963.26$</div>
+                                    <div class="divTableCell redText">-0.97%</div>
+                                    <div class="divTableCell">09:15</div>
+                                </div>
+                                <div class="divTableRow">
+                                    <div class="divTableCell">Litecoin</div>
+                                    <div class="divTableCell greenText">2,125.71$</div>
+                                    <div class="divTableCell greenText">+2.07%</div>
+                                    <div class="divTableCell">09:15</div>
+                                </div>
+                                <div class="divTableRow">
+                                    <div class="divTableCell">Bitcoin</div>
+                                    <div class="divTableCell redText">7,963.71$</div>
+                                    <div class="divTableCell redText">-0.97%</div>
+                                    <div class="divTableCell">09:15</div>
+                                </div>
+                                <div class="divTableRow">
+                                    <div class="divTableCell">Ethereum / Bitcoin</div>
+                                    <div class="divTableCell redText">642.70$</div>
+                                    <div class="divTableCell redText">-0.78%</div>
+                                    <div class="divTableCell">09:14</div>
+                                </div>
+                                <div class="divTableRow">
+                                    <div class="divTableCell">Bitcoin Cash</div>
+                                    <div class="divTableCell greenText">2,963.52$</div>
+                                    <div class="divTableCell greenText">+1.45%</div>
+                                    <div class="divTableCell">09:15</div>
+                                </div>
+                                <div class="divTableRow">
+                                    <div class="divTableCell">Ethereum</div>
+                                    <div class="divTableCell redText">963.26$</div>
+                                    <div class="divTableCell redText">-0.97%</div>
+                                    <div class="divTableCell">09:15</div>
+                                </div>
+                            </div>
+                        </div>
+                    </table>
+                </div>
+            </div>
+            <div class="col-6">
+                <h2 class="crypto-graphs-title">Aktuální a historické ceny</h2>
+                <div class="crypto-graphs-wrap">
+                    <div id="chartdiv"
+                         style="width: 100%;height: 400px;background-color: rgb(255, 255, 255);overflow: hidden;text-align: left;">
+                        <div class="amcharts-main-div" style="position: relative;">
+                            <div class="amcharts-chart-div"
+                                 style="overflow: hidden; position: relative; text-align: left; width: 490px; height: 400px; padding: 0px; cursor: default;">
+                                <svg version="1.1"
+                                     style="position: absolute; width: 490px; height: 400px; top: -0.425003px; left: 0.200012px;">
+                                    <desc>JavaScript chart by amCharts 3.21.13</desc>
+                                    <g>
+                                        <path cs="100,100" d="M0.5,0.5 L489.5,0.5 L489.5,399.5 L0.5,399.5 Z"
+                                              fill="#FFFFFF" stroke="#000000" fill-opacity="0" stroke-width="1"
+                                              stroke-opacity="0"></path>
+                                        <path cs="100,100" d="M0.5,0.5 L347.5,0.5 L347.5,248.5 L0.5,248.5 L0.5,0.5 Z"
+                                              fill="#FFFFFF" stroke="#000000" fill-opacity="0" stroke-width="1"
+                                              stroke-opacity="0" transform="translate(82,90)"></path>
+                                    </g>
+                                    <g>
+                                        <g transform="translate(82,0)" visibility="hidden"></g>
+                                        <g transform="translate(82,90)">
+                                            <g>
+                                                <path cs="100,100" d="M0.5,0.5 L0.5,5.5" fill="none" stroke-width="1"
+                                                      stroke-opacity="0.3" stroke="#000000"
+                                                      transform="translate(0,248)"></path>
+                                                <path cs="100,100" d="M0.5,248.5 L0.5,248.5 L0.5,0.5" fill="none"
+                                                      stroke-width="1" stroke-opacity="0.1" stroke="#000000"></path>
+                                            </g>
+                                            <g>
+                                                <path cs="100,100" d="M87.5,0.5 L87.5,5.5" fill="none" stroke-width="1"
+                                                      stroke-opacity="0.3" stroke="#000000"
+                                                      transform="translate(0,248)"></path>
+                                                <path cs="100,100" d="M87.5,248.5 L87.5,248.5 L87.5,0.5" fill="none"
+                                                      stroke-width="1" stroke-opacity="0.1" stroke="#000000"></path>
+                                            </g>
+                                            <g>
+                                                <path cs="100,100" d="M174.5,0.5 L174.5,5.5" fill="none"
+                                                      stroke-width="1" stroke-opacity="0.3" stroke="#000000"
+                                                      transform="translate(0,248)"></path>
+                                                <path cs="100,100" d="M174.5,248.5 L174.5,248.5 L174.5,0.5" fill="none"
+                                                      stroke-width="1" stroke-opacity="0.1" stroke="#000000"></path>
+                                            </g>
+                                            <g>
+                                                <path cs="100,100" d="M260.5,0.5 L260.5,5.5" fill="none"
+                                                      stroke-width="1" stroke-opacity="0.3" stroke="#000000"
+                                                      transform="translate(0,248)"></path>
+                                                <path cs="100,100" d="M260.5,248.5 L260.5,248.5 L260.5,0.5" fill="none"
+                                                      stroke-width="1" stroke-opacity="0.1" stroke="#000000"></path>
+                                            </g>
+                                            <g>
+                                                <path cs="100,100" d="M347.5,0.5 L347.5,5.5" fill="none"
+                                                      stroke-width="1" stroke-opacity="0.3" stroke="#000000"
+                                                      transform="translate(0,248)"></path>
+                                                <path cs="100,100" d="M347.5,248.5 L347.5,248.5 L347.5,0.5" fill="none"
+                                                      stroke-width="1" stroke-opacity="0.1" stroke="#000000"></path>
+                                            </g>
+                                        </g>
+                                        <g transform="translate(82,90)" visibility="visible">
+                                            <g>
+                                                <path cs="100,100" d="M0.5,248.5 L6.5,248.5" fill="none"
+                                                      stroke-width="1" stroke-opacity="0.3" stroke="#000000"
+                                                      transform="translate(-6,0)"></path>
+                                                <path cs="100,100" d="M0.5,248.5 L0.5,248.5 L347.5,248.5" fill="none"
+                                                      stroke-width="1" stroke-opacity="0.1" stroke="#000000"></path>
+                                            </g>
+                                            <g>
+                                                <path cs="100,100" d="M0.5,198.5 L6.5,198.5" fill="none"
+                                                      stroke-width="1" stroke-opacity="0.3" stroke="#000000"
+                                                      transform="translate(-6,0)"></path>
+                                                <path cs="100,100" d="M0.5,198.5 L0.5,198.5 L347.5,198.5" fill="none"
+                                                      stroke-width="1" stroke-opacity="0.1" stroke="#000000"></path>
+                                            </g>
+                                            <g>
+                                                <path cs="100,100" d="M0.5,149.5 L6.5,149.5" fill="none"
+                                                      stroke-width="1" stroke-opacity="0.3" stroke="#000000"
+                                                      transform="translate(-6,0)"></path>
+                                                <path cs="100,100" d="M0.5,149.5 L0.5,149.5 L347.5,149.5" fill="none"
+                                                      stroke-width="1" stroke-opacity="0.1" stroke="#000000"></path>
+                                            </g>
+                                            <g>
+                                                <path cs="100,100" d="M0.5,99.5 L6.5,99.5" fill="none" stroke-width="1"
+                                                      stroke-opacity="0.3" stroke="#000000"
+                                                      transform="translate(-6,0)"></path>
+                                                <path cs="100,100" d="M0.5,99.5 L0.5,99.5 L347.5,99.5" fill="none"
+                                                      stroke-width="1" stroke-opacity="0.1" stroke="#000000"></path>
+                                            </g>
+                                            <g>
+                                                <path cs="100,100" d="M0.5,50.5 L6.5,50.5" fill="none" stroke-width="1"
+                                                      stroke-opacity="0.3" stroke="#000000"
+                                                      transform="translate(-6,0)"></path>
+                                                <path cs="100,100" d="M0.5,50.5 L0.5,50.5 L347.5,50.5" fill="none"
+                                                      stroke-width="1" stroke-opacity="0.1" stroke="#000000"></path>
+                                            </g>
+                                            <g>
+                                                <path cs="100,100" d="M0.5,0.5 L6.5,0.5" fill="none" stroke-width="1"
+                                                      stroke-opacity="0.3" stroke="#000000"
+                                                      transform="translate(-6,0)"></path>
+                                                <path cs="100,100" d="M0.5,0.5 L0.5,0.5 L347.5,0.5" fill="none"
+                                                      stroke-width="1" stroke-opacity="0.1" stroke="#000000"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g transform="translate(82,90)" clip-path="url(#AmChartsEl-3)">
+                                        <g visibility="hidden"></g>
+                                    </g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g>
+                                        <g transform="translate(82,90)">
+                                            <g transform="translate(12,33)" aria-label="Price: Jun 01, 2018 136.49">
+                                                <path cs="100,100" d="M0.5,0.5 L0.5,4.5 L5.5,4.5 L5.5,0.5 L0.5,0.5 Z"
+                                                      fill="#E2001A" stroke="#E2001A" fill-opacity="0.9"
+                                                      stroke-width="1" stroke-opacity="0.9"></path>
+                                            </g>
+                                            <path cs="100,100" d="M14.5,33.5 L14.5,26.5" fill="none" stroke-width="1"
+                                                  stroke-opacity="0.9" stroke="#E2001A"></path>
+                                            <path cs="100,100" d="M14.5,37.5 L14.5,95.5" fill="none" stroke-width="1"
+                                                  stroke-opacity="0.9" stroke="#E2001A"></path>
+                                            <g transform="translate(41,68)" aria-label="Price: Jun 02, 2018 131.85">
+                                                <path cs="100,100" d="M0.5,0.5 L0.5,85.5 L5.5,85.5 L5.5,0.5 L0.5,0.5 Z"
+                                                      fill="#E2001A" stroke="#E2001A" fill-opacity="0.9"
+                                                      stroke-width="1" stroke-opacity="0.9"></path>
+                                            </g>
+                                            <path cs="100,100" d="M43.5,68.5 L43.5,51.5" fill="none" stroke-width="1"
+                                                  stroke-opacity="0.9" stroke="#E2001A"></path>
+                                            <path cs="100,100" d="M43.5,153.5 L43.5,161.5" fill="none" stroke-width="1"
+                                                  stroke-opacity="0.9" stroke="#E2001A"></path>
+                                            <g transform="translate(70,126)" aria-label="Price: Jun 03, 2018 135.25">
+                                                <path cs="100,100"
+                                                      d="M0.5,0.5 L0.5,-57.5 L5.5,-57.5 L5.5,0.5 L0.5,0.5 Z"
+                                                      fill="#41D57D" stroke="#41D57D" fill-opacity="0.9"
+                                                      stroke-width="1" stroke-opacity="0.9"></path>
+                                            </g>
+                                            <path cs="100,100" d="M72.5,68.5 L72.5,68.5" fill="none" stroke-width="1"
+                                                  stroke-opacity="0.9" stroke="#41D57D"></path>
+                                            <path cs="100,100" d="M72.5,126.5 L72.5,241.5" fill="none" stroke-width="1"
+                                                  stroke-opacity="0.9" stroke="#41D57D"></path>
+                                            <g transform="translate(99,76)" aria-label="Price: Jun 04, 2018 135.03">
+                                                <path cs="100,100" d="M0.5,0.5 L0.5,-1.5 L5.5,-1.5 L5.5,0.5 L0.5,0.5 Z"
+                                                      fill="#41D57D" stroke="#41D57D" fill-opacity="0.9"
+                                                      stroke-width="1" stroke-opacity="0.9"></path>
+                                            </g>
+                                            <path cs="100,100" d="M101.5,74.5 L101.5,19.5" fill="none" stroke-width="1"
+                                                  stroke-opacity="0.9" stroke="#41D57D"></path>
+                                            <path cs="100,100" d="M101.5,76.5 L101.5,133.5" fill="none" stroke-width="1"
+                                                  stroke-opacity="0.9" stroke="#41D57D"></path>
+                                            <g transform="translate(128,31)" aria-label="Price: Jun 05, 2018 134.01">
+                                                <path cs="100,100" d="M0.5,0.5 L0.5,68.5 L5.5,68.5 L5.5,0.5 L0.5,0.5 Z"
+                                                      fill="#E2001A" stroke="#E2001A" fill-opacity="0.9"
+                                                      stroke-width="1" stroke-opacity="0.9"></path>
+                                            </g>
+                                            <path cs="100,100" d="M130.5,31.5 L130.5,28.5" fill="none" stroke-width="1"
+                                                  stroke-opacity="0.9" stroke="#E2001A"></path>
+                                            <path cs="100,100" d="M130.5,99.5 L130.5,149.5" fill="none" stroke-width="1"
+                                                  stroke-opacity="0.9" stroke="#E2001A"></path>
+                                            <g></g>
+                                        </g>
+                                    </g>
+                                    <g></g>
+                                    <g>
+                                        <g>
+                                            <path cs="100,100" d="M0.5,0.5 L347.5,0.5" fill="none" stroke-width="1"
+                                                  stroke-opacity="0" stroke="#000000"
+                                                  transform="translate(0,30)"></path>
+                                        </g>
+                                        <g>
+                                            <path cs="100,100" d="M0.5,0.5 L0.5,30.5" fill="none" stroke-width="1"
+                                                  stroke-opacity="0" stroke="#000000" transform="translate(82,0)"
+                                                  visibility="hidden"></path>
+                                        </g>
+                                        <g>
+                                            <path cs="100,100" d="M0.5,0.5 L347.5,0.5" fill="none" stroke-width="1"
+                                                  stroke-opacity="0.3" stroke="#000000"
+                                                  transform="translate(82,338)"></path>
+                                        </g>
+                                        <g>
+                                            <path cs="100,100" d="M0.5,0.5 L0.5,248.5" fill="none" stroke-width="1"
+                                                  stroke-opacity="0.3" stroke="#000000" transform="translate(82,90)"
+                                                  visibility="visible"></path>
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g transform="translate(82,90)" clip-path="url(#AmChartsEl-4)"
+                                           style="pointer-events: none;">
+                                            <path cs="100,100" d="M0.5,0.5 L0.5,0.5 L0.5,248.5" fill="none"
+                                                  stroke-width="1" stroke-opacity="0.5" stroke="#000000"
+                                                  visibility="hidden" transform="translate(14,0)"></path>
+                                            <path cs="100,100" d="M0.5,0.5 L347.5,0.5 L347.5,0.5" fill="none"
+                                                  stroke-width="1" stroke="#000000" visibility="hidden"
+                                                  transform="translate(0,35)"></path>
+                                        </g>
+                                        <clipPath id="AmChartsEl-4">
+                                            <rect x="0" y="0" width="347" height="248" rx="0" ry="0"
+                                                  stroke-width="0"></rect>
+                                        </clipPath>
+                                    </g>
+                                    <g>
+                                        <g visibility="visible" transform="translate(82,60)"
+                                           style="touch-action: none;">
+                                            <rect x="0.5" y="0.5" width="348" height="30" rx="0" ry="0" stroke-width="1"
+                                                  fill="#000000" stroke="#000000" fill-opacity="0.12"
+                                                  stroke-opacity="0.12"></rect>
+                                            <rect x="0.5" y="0.5" width="347" height="31" rx="0" ry="0" stroke-width="0"
+                                                  fill="#FFFFFF" stroke="#FFFFFF" fill-opacity="0.4"
+                                                  stroke-opacity="0.4" transform="translate(0,0)"></rect>
+                                            <g transform="translate(0,0)">
+                                                <g></g>
+                                                <g>
+                                                    <path cs="100,100"
+                                                          d="M14.5,7.52 L43.5,16.8 L72.5,10 L101.5,10.44 L130.5,12.48 L130.5,30.5 L14.5,30.5 L14.5,7.52 Z"
+                                                          fill="#BBBBBB" stroke="#000" fill-opacity="0.5"
+                                                          stroke-width="1" stroke-opacity="0"></path>
+                                                    <path cs="100,100"
+                                                          d="M14.5,7.52 L43.5,16.8 L72.5,10 L101.5,10.44 L130.5,12.48"
+                                                          fill="none" stroke-width="1" stroke-opacity="0"
+                                                          stroke="#BBBBBB" stroke-linejoin="round"></path>
+                                                </g>
+                                                <g></g>
+                                            </g>
+                                            <g transform="translate(0,0)" clip-path="url(#AmChartsEl-5)">
+                                                <g></g>
+                                                <g>
+                                                    <path cs="100,100"
+                                                          d="M14.5,7.52 L43.5,16.8 L72.5,10 L101.5,10.44 L130.5,12.48 L130.5,30.5 L14.5,30.5 L14.5,7.52 Z"
+                                                          fill="#888888" stroke="#000" fill-opacity="1" stroke-width="1"
+                                                          stroke-opacity="0"></path>
+                                                    <path cs="100,100"
+                                                          d="M14.5,7.52 L43.5,16.8 L72.5,10 L101.5,10.44 L130.5,12.48"
+                                                          fill="none" stroke-width="1" stroke-opacity="0"
+                                                          stroke="#888888" stroke-linejoin="round"></path>
+                                                </g>
+                                                <g></g>
+                                            </g>
+                                            <g transform="translate(0,0)"></g>
+                                            <g transform="translate(0,0)" visibility="visible"></g>
+                                            <rect x="0.5" y="0.5" width="348" height="30" rx="0" ry="0" stroke-width="0"
+                                                  fill="#000" stroke="#000" fill-opacity="0.005"
+                                                  stroke-opacity="0.005"></rect>
+                                            <rect x="0" y="0.5" width="347" height="30" rx="0" ry="0" stroke-width="0"
+                                                  fill="#000" stroke="#000" fill-opacity="0.005" stroke-opacity="0.005"
+                                                  aria-label="Zoom chart using cursor arrows" role="menuitem"></rect>
+                                            <g aria-label="Zoom chart using cursor arrows" role="menuitem"
+                                               transform="translate(-17,-2)">
+                                                <image x="0" y="0" width="35" height="35"
+                                                       xlink:href="http://www.amcharts.com/lib/3/images/dragIconRoundBig.svg"></image>
+                                                <rect x="0.5" y="0.5" width="25" height="30" rx="0" ry="0"
+                                                      stroke-width="0" fill="#000" stroke="#000" fill-opacity="0.005"
+                                                      stroke-opacity="0.005" transform="translate(5,3)"></rect>
+                                            </g>
+                                            <g aria-label="Zoom chart using cursor arrows" role="menuitem"
+                                               transform="translate(330,-2)">
+                                                <image x="0" y="0" width="35" height="35"
+                                                       xlink:href="http://www.amcharts.com/lib/3/images/dragIconRoundBig.svg"></image>
+                                                <rect x="0.5" y="0.5" width="25" height="30" rx="0" ry="0"
+                                                      stroke-width="0" fill="#000" stroke="#000" fill-opacity="0.005"
+                                                      stroke-opacity="0.005" transform="translate(5,3)"></rect>
+                                            </g>
+                                            <clipPath id="AmChartsEl-5">
+                                                <rect x="0" y="0" width="347" height="31" rx="0" ry="0"
+                                                      stroke-width="0"></rect>
+                                            </clipPath>
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g transform="translate(0,0)"></g>
+                                        <g transform="translate(0,0)"></g>
+                                        <g transform="translate(82,90)"></g>
+                                    </g>
+                                    <g>
+                                        <g></g>
+                                    </g>
+                                    <g>
+                                        <g transform="translate(82,0)" visibility="hidden"></g>
+                                        <g transform="translate(82,90)" visibility="visible">
+                                            <text y="5" fill="#000000" font-family="Nunito Sans" font-size="10px"
+                                                  opacity="1" font-weight="bold" text-anchor="start"
+                                                  transform="translate(3,260)">
+                                                <tspan y="5" x="0">Jun</tspan>
+                                            </text>
+                                            <text y="5" fill="#000000" font-family="Nunito Sans" font-size="10px"
+                                                  opacity="1" text-anchor="start" transform="translate(90,260)">
+                                                <tspan y="5" x="0">Jun 04</tspan>
+                                            </text>
+                                            <text y="5" fill="#000000" font-family="Nunito Sans" font-size="10px"
+                                                  opacity="1" text-anchor="start" transform="translate(177,260)">
+                                                <tspan y="5" x="0">Jun 07</tspan>
+                                            </text>
+                                            <text y="5" fill="#000000" font-family="Nunito Sans" font-size="10px"
+                                                  opacity="1" text-anchor="start" transform="translate(263,260)">
+                                                <tspan y="5" x="0">Jun 10</tspan>
+                                            </text>
+                                        </g>
+                                        <g transform="translate(82,90)" visibility="visible">
+                                            <text y="5" fill="#000000" font-family="Nunito Sans" font-size="10px"
+                                                  opacity="1" text-anchor="end" transform="translate(-12,243.40625)">
+                                                <tspan y="5" x="0">128</tspan>
+                                            </text>
+                                            <text y="5" fill="#000000" font-family="Nunito Sans" font-size="10px"
+                                                  opacity="1" text-anchor="end" transform="translate(-12,193.40625)">
+                                                <tspan y="5" x="0">130</tspan>
+                                            </text>
+                                            <text y="5" fill="#000000" font-family="Nunito Sans" font-size="10px"
+                                                  opacity="1" text-anchor="end" transform="translate(-12,144.40625)">
+                                                <tspan y="5" x="0">132</tspan>
+                                            </text>
+                                            <text y="5" fill="#000000" font-family="Nunito Sans" font-size="10px"
+                                                  opacity="1" text-anchor="end" transform="translate(-12,94.40625)">
+                                                <tspan y="5" x="0">134</tspan>
+                                            </text>
+                                            <text y="5" fill="#000000" font-family="Nunito Sans" font-size="10px"
+                                                  opacity="1" text-anchor="end" transform="translate(-12,45.40625)">
+                                                <tspan y="5" x="0">136</tspan>
+                                            </text>
+                                        </g>
+                                    </g>
+                                    <g></g>
+                                    <g transform="translate(82,90)"></g>
+                                    <g></g>
+                                    <g></g>
+                                    <clipPath id="AmChartsEl-3">
+                                        <rect x="-1" y="-1" width="349" height="250" rx="0" ry="0"
+                                              stroke-width="0"></rect>
+                                    </clipPath>
+                                </svg>
+                                <a href="http://www.amcharts.com" title="JavaScript charts"
+                                   style="position: absolute; text-decoration: none; color: rgb(0, 0, 0); font-family: &quot;Nunito Sans&quot;; font-size: 11px; opacity: 0.7; display: block; left: 87px; top: 95px;">JS
+                                    chart by amCharts</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-right">
+                    <a class="button button-white" href="/aktuality" title="Všechny aktuality"><span>Všechny
+                    	    aktuality</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+	<!-- <section id="cryp-mapSection" style="background-image: url('/img/cubeBg.png');">
+  	<div>
+     	<h2 class="cryp-map__title">CCC Points</h2>
+    </div>
+  	<div class="cryp-map__wrapper">
+    	<div id="crypMap"></div>
+    </div>
+  </section> -->
+  
+  <footer class="crypFooter">
+  	<div class="crypFooter__head">
+  		<div class="crypFooter__logo">
+  			<img class="crypFooter__logo-img" src="img/cccpoint.svg" width="82" height="12" alt="cccpoint">
+  		</div>
+
+  		<div class="crypFooter__things footerThings">
+  			<div class="footerThings__social footerThing">
+  				<a class="footerThings__social-link" href="#"><i class="fa fa-twitter"></i></a>
+  				<a class="footerThings__social-link" href="#"><i class="fa fa-youtube"></i></a>
+  			</div>
+
+  			<div class="footerThings__download footerThing">
+  				<a class="footerThings__download-link" href="#">Download</a>
+  			</div>
+
+  			<div class="footerThings__payments footerThing">
+  				<img class="footerThings__payments-img" src="img/mastercard.svg" alt="Mastercard">
+  				<img class="footerThings__payments-img" src="img/visa.svg" alt="Visa">
+  			</div>
+
+  			<div class="footerThings__lang chooseLang footerThing">
+  				<label class="chooseLang__label">
+            <select class="chooseLang__select" id="chooseLang" name="chooseLang">
+                <option value="cz">CZ</option>
+                <option value="en">EN</option>
+            </select>
+          </label>
+  			</div>
+
+  			<div class="footerThings__portal">
+  				<a href="#" class="footerThings__portal-link">E-portal</a>
+  			</div>
+  		</div>
+  	</div>
+
+  	<div class="crypFooter__body footerBody">
+			<div class="footerBody__menu">
+				<div class="footerBody__menu-questions padding40">
+					<h2 class="footerBody__title">Potřebujete <br> poradit?</h2>
+
+					<form action="#" class="footerBody__form">
+						<input class="footerBody__input" name="backCallForHelp" id="backCallForHelp" value="" type="phone" placeholder="+420" required>
+            <button class="footerBody__form-submit" type="submit" name="backCallForHelpSubmit" id="backCallForHelpSubmit"></button>
+					</form>
+				</div>
+
+				<div class="footerBody__menu-lists">
+					<ul class="footerMenu padding40">
+						<li><a href="#" class="footerMenu__link">Home</a></li>
+						<li><a href="#" class="footerMenu__link">O nás</a></li>
+						<li><a href="#" class="footerMenu__link">Služby</a></li>
+						<li><a href="#" class="footerMenu__link">Pro klienty</a></li>
+						<li><a href="#" class="footerMenu__link">Spolupráce</a></li>
+						<li><a href="#" class="footerMenu__link">Aktuality</a></li>
+						<li><a href="#" class="footerMenu__link">Faq</a></li>
+						<li><a href="#" class="footerMenu__link">Kontakty</a></li>
+					</ul>
+
+					<ul class="footerMenu padding40">
+						<li><a href="#" class="footerMenu__link">Home</a></li>
+						<li><a href="#" class="footerMenu__link">O nás</a></li>
+						<li><a href="#" class="footerMenu__link">Služby</a></li>
+						<li><a href="#" class="footerMenu__link">Pro klienty</a></li>
+						<li><a href="#" class="footerMenu__link">Spolupráce</a></li>
+						<li><a href="#" class="footerMenu__link">Aktuality</a></li>
+						<li><a href="#" class="footerMenu__link">Faq</a></li>
+						<li><a href="#" class="footerMenu__link">Kontakty</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="footerBody__subscribe padding40x30">
+				<h2 class="footerBody__title">Zůstat <br />v obraze</h2>
+
+				<form action="#" class="footerBody__form">
+					<input class="footerBody__input" name="subscribe" id="subscribe" value="" type="phone" placeholder="@" required>
+          <button class="footerBody__form-submit" type="submit" name="subscribeSubmit" id="subscribeSubmit"></button>
+				</form>
+			</div>
+  	</div>
+
+  	<div class="crypFooter__bot">
+  		<div class="crypFooter__bot-logo">
+  			<a href="#">
+  				<img src="img/321CreativeCrew.svg" width="125" height="35" alt="">
+  			</a>
+  		</div>
+
+  		<div class="crypFooter__bot-contacts footerContacts">
+  			<div class="footerContacts__address">
+  				<span class="footerContacts__address-text">Crypcoinum s.r.o. | Komenského 9, 602 00 Brno, Česká republika</span>
+  			</div>
+
+  			<div class="footerContacts__links">
+  				<a class="footerContacts__address-text" href="tel:+420000000000">telefon: +420 000 000 000</a>
+  				<a class="footerContacts__address-text" href="mailto:info@cccpoint.cz">e-mail: info@cccpoint.cz</a>
+  			</div>
+  		</div>
+  	</div>
+  </footer>
+<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+<script type="text/javascript" src="//www.amcharts.com/lib/3/amcharts.js"></script>
+<script type="text/javascript" src="//cdn.amcharts.com/lib/3/serial.js"></script>
+<script type="text/javascript" src="//www.amcharts.com/lib/3/themes/light.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/svg-injector.js"></script>
+<script src="js/richmarker.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyClfeYcSf8itqqiLbLaKTljsW5z2FQ0TCQ"></script>
+<script src="js/script.js"></script>
+<script src="js/script-all.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
