@@ -1065,6 +1065,7 @@ svg path.hidden {
 	justify-content: center;
 	background: #fff;
 	box-shadow: 0 0 10px rgba(0,0,0,.25);
+	overflow: hidden;
 }
 .crypto-graphs-title{
 	color: #0DCFFF ;
@@ -1087,9 +1088,15 @@ svg path.hidden {
 }
 
 .divTable {
-	display: table;
 	width: 100%;
 	padding: 10px;
+}
+
+@media (max-width: 400px) {
+	.divTable {
+		width: 360px;
+		overflow-x: scroll;
+	}
 }
 
 .divTableBody {
@@ -1300,7 +1307,7 @@ svg path.hidden {
 .chooseLang__label::after {
   content: '\f0d7';
   position: absolute;
-  top: 3px;
+  top: -2px;
   right: 0;
   width: 16px;
   height: 10px;
