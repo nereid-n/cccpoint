@@ -1366,7 +1366,10 @@ svg path.hidden {
 .crypto-callback,
 .crypto-mining,
 section.crypto-graphs {
-	min-height: 100vh;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 @media (max-width: 767px) {
@@ -1377,4 +1380,3 @@ section.crypto-graphs {
 		height: auto;
 	}
 }
-
