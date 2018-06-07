@@ -425,6 +425,16 @@ svg path.hidden {
 	font-weight: 700;
 }
 
+.crypto-header__mobile-menu .button-main {
+	border-radius: 4px;
+	margin-bottom: 10px;
+}
+
+.crypto-header__mobile-menu .button-main span {
+	text-transform: none;
+	font-size: 14px;
+}
+
 @media (max-width: 959px) {
 	.button-main-top {
 		margin-bottom: 15px;
@@ -1786,5 +1796,8 @@ section.crypto-graphs {
 @media (max-width: 992px) { 
 	.crypto-main-news .button {
 		margin-bottom: 30px;
+	}
+	.crypto-articles .smallTitle {
+		margin-top: 20px;
 	}
 }
