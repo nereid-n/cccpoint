@@ -51,7 +51,7 @@ p {
 	margin: 1em 0;
 }
 
-::after, ::before, a {
+::after, ::before, a, .crypto-header__mobile-btn {
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
   -ms-transition: all 0.3s ease-in;
@@ -86,6 +86,17 @@ header {
 	margin-right: 5px;
 	margin-top: 5px;
 }
+
+.button-white {
+	webkit-box-shadow: 0 0 10px rgba(0,0,0,.25);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,.25);
+    box-shadow: 0 0 10px rgba(0,0,0,.25);
+}
+
+.crypto-block-callback .button-white {
+	box-shadow: none;
+}
+
 
 .button-main {
 	background-color: rgb(14,208,255);
@@ -1061,6 +1072,10 @@ svg path.hidden {
 	display: inline-block;
 }
 
+.crypto-graphs .button {
+	margin-top: 10px;
+}
+
 .divTable {
 	display: table;
 	width: 100%;
@@ -1289,6 +1304,7 @@ svg path.hidden {
 .chooseLang__label_header::after {
   right: 13px;
   color: white;
+  top: -2px;
 }
 
 .chooseLang__select {
@@ -1659,6 +1675,7 @@ section.crypto-graphs {
   border: none;
   background: none;
   padding: 6px 5px;
+  border-radius: 4px;
 }
 .crypto-header__mobile-btn span {
   display: block;
@@ -1765,12 +1782,9 @@ section.crypto-graphs {
 		padding: 0px 15px;
 	}
 }
-/*
-@media (min-width: 460px) and (max-width: 767px) {
-	.crypto-mining-img {
-		width: 30%;
+
+@media (max-width: 992px) { 
+	.crypto-main-news .button {
+		margin-bottom: 30px;
 	}
-	.crypto-mining-content{
-		width: 70%;
-	}
-}*/
+}
