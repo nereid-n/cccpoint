@@ -1,4 +1,6 @@
 $(document).ready(function () {
+
+    // Elements to inject
     $('.owl-carousel').owlCarousel({
         loop:true,
         margin:10,

@@ -4,6 +4,39 @@ function isIE()
 }
 
 $(document).ready(function() {
+
+	$('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav: true,
+        dots: false,
+        items: 3,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        smartSpeed: 1500,
+        autoplayHoverPause: true,
+        animateIn: 'linear',
+        animateOut: 'linear',
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            600:{
+                items:3,
+                nav:true
+            },
+            1000:{
+                items:3,
+                nav:true,
+                loop:true
+            }
+        }
+    });
+
+
+
 	
     // Elements to inject
 	var mySVGsToInject = document.querySelectorAll('img.inject-me');
@@ -504,6 +537,7 @@ $(document).ready(function() {
 					}
 				];
 				
+		if ( typeof($('#crypMa
 				var div = document.getElementById('mapDiv'); 
 			
 				if ( div !== null ) { 

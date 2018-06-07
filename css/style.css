@@ -211,7 +211,7 @@ header {
 
 .crypto-callback {
 	background-image: url(../img/pozvanka-do-cccpoint.jpg);
-	padding: 100px 15px;
+	padding: 40px 15px;
 }
 
 @media (max-width: 768px) {
@@ -1366,17 +1366,7 @@ svg path.hidden {
 .crypto-callback,
 .crypto-mining,
 section.crypto-graphs {
-	height: 100vh;
-	display: table;
-	vertical-align: middle;
-    width: 100%;
-}
-
-.crypto-articles .container, 
-.crypto-callback .container,
-.crypto-mining .container,
-section.crypto-graphs .container {
-	display: table-cell;
+	min-height: 100vh;
 }
 
 @media (max-width: 767px) {
@@ -1388,6 +1378,3 @@ section.crypto-graphs .container {
 	}
 }
 
-section.crypto-graphs .container .row {
-	margin: 0 15px;
-}
