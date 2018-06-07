@@ -1488,7 +1488,14 @@ svg path.hidden {
 }
 
 @media (max-width: 992px) {
-  .cryp-grapg {
+  .crypto-articles .container,
+  .crypto-main-services {
+    padding: 0 15px;
+  }
+  .divTableCell, .divTableHead {
+    padding: 5px 10px;
+  }
+  .cryp-graph {
     margin-top: 30px;
   }
 }
