@@ -408,7 +408,7 @@
 <section class="crypto-graphs">
   <div class="container">
     <div class="row">
-      <div class="col-6">
+      <div class="col-12 col-lg-6">
         <h2 class="crypto-graphs-title">KURZY KRYPTOMĚNY</h2>
         <div class="crypto-graphs-wrap">
           <table class="crypto-graphs">
@@ -497,7 +497,7 @@
           </table>
         </div>
       </div>
-      <div class="col-6">
+      <div class="col-12 col-lg-6 cryp-grapg">
         <h2 class="crypto-graphs-title">Aktuální a historické ceny</h2>
         <div class="crypto-graphs-wrap">
           <div id="chartdiv" style="width: 100%; height: 400px; background-color: #FFFFFF;"></div>
@@ -516,7 +516,7 @@
     <h2 class="smallTitle smallTitle_center">CCC Points</h2>
   </div>
   <div class="cryp-map__wrapper">
-    <div id="crypMap"></div>
+    <div id="crypMap" class="crypMap"></div>
   </div>
 </section>
 
@@ -524,36 +524,34 @@
 <footer class="crypFooter">
   <div class="crypFooter__head">
     <div class="crypFooter__logo">
-      <img class="crypFooter__logo-img" src="img/cccpoint.svg" width="82" height="12" alt="cccpoint" class="inject-me">
+      <img class="crypFooter__logo-img inject-me" src="img/cccpoint.svg" width="82" height="12" alt="cccpoint">
     </div>
 
-    <div class="crypFooter__things footerThings">
-      <div class="footerThings__social footerThing">
-        <a class="footerThings__social-link" href="#"><i class="fa fa-twitter"></i></a>
-        <a class="footerThings__social-link" href="#"><i class="fa fa-youtube"></i></a>
-      </div>
+    <div class="footerThings__social footerThing">
+      <a class="footerThings__social-link" href="#"><i class="fa fa-twitter"></i></a>
+      <a class="footerThings__social-link" href="#"><i class="fa fa-youtube"></i></a>
+    </div>
 
-      <div class="footerThings__download footerThing">
-        <a class="footerThings__download-link" href="#">Download</a>
-      </div>
+    <div class="footerThings__download footerThing">
+      <a class="footerThings__download-link" href="#">Download</a>
+    </div>
 
-      <div class="footerThings__payments footerThing">
-        <img class="footerThings__payments-img" src="img/mastercard.svg" alt="Mastercard" class="inject-me">
-        <img class="footerThings__payments-img" src="img/visa.svg" alt="Visa" class="inject-me">
-      </div>
+    <div class="footerThings__payments footerThing">
+      <img class="footerThings__payments-img" src="img/mastercard.svg" alt="Mastercard">
+      <img class="footerThings__payments-img" src="img/visa.svg" alt="Visa">
+    </div>
 
-      <div class="footerThings__lang chooseLang footerThing">
-        <label class="chooseLang__label">
-          <select class="chooseLang__select" id="chooseLang" name="chooseLang">
-            <option value="cz">CZ</option>
-            <option value="en">EN</option>
-          </select>
-        </label>
-      </div>
+    <div class="footerThings__lang chooseLang footerThing">
+      <label class="chooseLang__label">
+        <select class="chooseLang__select" id="chooseLang" name="chooseLang">
+          <option value="cz">CZ</option>
+          <option value="en">EN</option>
+        </select>
+      </label>
+    </div>
 
-      <div class="footerThings__portal">
-        <a href="#" class="footerThings__portal-link">E-portal</a>
-      </div>
+    <div class="footerThings__portal">
+      <a href="#" class="footerThings__portal-link">E-portal</a>
     </div>
   </div>
 
@@ -608,7 +606,7 @@
   <div class="crypFooter__bot">
     <div class="crypFooter__bot-logo">
       <a href="#">
-        <img src="img/321CreativeCrew.svg" width="125" height="35" alt="" class="inject-me">
+        <img src="img/321CreativeCrew.svg" width="125" height="35" alt="">
       </a>
     </div>
 
@@ -625,16 +623,16 @@
   </div>
 </footer>
 
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAlTgyBcPorJvGcmwNGyQz46UfU4soOH3s"></script>
 
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/modernizr.js"></script>
 <script src="js/svg-injector.js"></script>
 <script src="js/owl.carousel.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlTgyBcPorJvGcmwNGyQz46UfU4soOH3s"></script>
 <script src="js/richmarker.js"></script>
-<script type="text/javascript" src="http://www.amcharts.com/lib/3/amcharts.js"></script>
-<script type="text/javascript" src="http://cdn.amcharts.com/lib/3/serial.js"></script>
-<script type="text/javascript" src="http://www.amcharts.com/lib/3/themes/light.js"></script>
+<script type="text/javascript" src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+<script type="text/javascript" src="https://cdn.amcharts.com/lib/3/serial.js"></script>
+<script type="text/javascript" src="https://www.amcharts.com/lib/3/themes/light.js"></script>
 <script src="js/svg-injector.js"></script>
 <script src="js/scripts.js"></script>
 </body>
