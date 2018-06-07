@@ -26,14 +26,6 @@ $(document).ready(function () {
     }
   });
 
-  if (!Modernizr.svg) {
-
-    $('img[src$=".inject-me"]').each(function () {
-      $(this).attr('src', $(this).attr('src').replace('.svg', '.png'));
-    });
-  }
-  ;
-
   $('.owl-carousel').owlCarousel({
     loop: true,
     margin: 10,
