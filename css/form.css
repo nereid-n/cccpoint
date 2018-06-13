@@ -1,0 +1,131 @@
+/**
+ * reg form styles
+ */
+
+.crypLogin__form-wrapper {
+  position: relative;
+  z-index: 1;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+.nav-tabs {
+  display: flex;
+  justify-content: space-between;
+  border: none;
+}
+
+.nav-tabs .nav-item {
+  width: calc(50% - 5px);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.nav-tabs .crypLogin__tab {
+  position: relative;
+  top: -1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 15px 0;
+  border-radius: 0;
+  border: none;
+}
+
+.crypLogin__tab-icon {
+  display: block;
+  width: 12px;
+  height: 17px;
+  margin-right: 6px;
+  background-size: cover;
+}
+
+.crypLogin__tab:hover {
+  color: white;
+}
+
+.nav-tabs .nav-item.show .crypLogin__tab,
+.nav-tabs .crypLogin__tab.active {
+  z-index: 2;
+  box-shadow: 0 7px 0 #fff, 0 1px 6px rgba(0,0,0, .3);
+}
+
+.nav-tabs .nav-item.show .crypLogin__tab::after,
+.nav-tabs .crypLogin__tab.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.nav-tabs .crypLogin__tab_login {
+  color: white;
+  background-color: #42d67e;
+}
+
+.nav-tabs .crypLogin__tab_login .crypLogin__tab-icon {
+  background-image: url(../img/CCCpoint_login-register-weak.png);
+  background-position: left;
+}
+
+.nav-tabs .crypLogin__tab_login.active {
+  color: #42d67e;
+  background-color: white;
+}
+
+.nav-tabs .crypLogin__tab_login.active .crypLogin__tab-icon {
+  background-image: url(../img/CCCpoint_login-login.png);
+  background-position: left;
+}
+
+.nav-tabs .crypLogin__tab_reg {
+  color: white;
+  background-color: #0dd0fe;
+}
+
+.nav-tabs .crypLogin__tab_reg .crypLogin__tab-icon {
+  background-image: url(../img/CCCpoint_login-login.png);
+  background-position: right;
+}
+
+.nav-tabs .crypLogin__tab_reg.active {
+  color: #0dd0fe;
+  background-color: white;
+}
+
+.nav-tabs .crypLogin__tab_reg.active .crypLogin__tab-icon {
+  background-image: url(../img/CCCpoint_login-register-weak.png);
+  background-position: right;
+}
+
+label {
+  color: #bec2c3;
+  vertical-align: middle;
+}
+
+.form-control {
+  padding: 10px;
+  border-radius: 0;
+  background-color: #f5f5f5;
+}
+
+.crypLogin__forgotPass {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.forgotPass-link {
+  color: #2bbfd8;
+  text-decoration: underline;
+}
+
+.forgotPass-link:hover,
+.forgotPass-link:active,
+.forgotPass-link:focus {
+  text-decoration: none;
+}
