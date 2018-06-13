@@ -3,6 +3,16 @@ function isIE() {
 }
 
 $(document).ready(function () {
+  $(this).on('load scroll', function(){
+      if ($(this).scrollTop() > $('.crypto-header').first().outerHeight(true))
+      {
+        $('.crypto-header__mobile-btn').css({'background':'#1B161D'});
+      }
+      else
+      {
+        $('.crypto-header__mobile-btn').css({'background':'none'});
+      }
+    });
   $(document).on('click', '.crypto-header__mobile-btn', function () {
     $(this).toggleClass('crypto-header__mobile-btn-cross');
     $(this).siblings('.crypto-header__mobile-menu').slideToggle('fast');

@@ -52,7 +52,7 @@ p {
 	margin: 1em 0;
 }
 
-::after, ::before, a {
+::after, ::before, a, .crypto-header__mobile-btn {
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
   -ms-transition: all 0.3s ease-in;
@@ -94,6 +94,17 @@ header {
 	margin-right: 5px;
 	margin-top: 5px;
 }
+
+.button-white {
+	webkit-box-shadow: 0 0 10px rgba(0,0,0,.25);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,.25);
+    box-shadow: 0 0 10px rgba(0,0,0,.25);
+}
+
+.crypto-block-callback .button-white {
+	box-shadow: none;
+}
+
 
 .button-main {
 	background-color: rgb(14,208,255);
@@ -426,6 +437,16 @@ svg path.hidden {
 .crypto-header__payment .button-main span {
 	text-transform: none;
 	font-weight: 700;
+}
+
+.crypto-header__mobile-menu .button-main {
+	border-radius: 4px;
+	margin-bottom: 10px;
+}
+
+.crypto-header__mobile-menu .button-main span {
+	text-transform: none;
+	font-size: 14px;
 }
 
 @media (max-width: 959px) {
@@ -1058,6 +1079,7 @@ svg path.hidden {
 	justify-content: center;
 	background: #fff;
 	box-shadow: 0 0 10px rgba(0,0,0,.25);
+	overflow: hidden;
 }
 .crypto-graphs-title{
 	color: #0DCFFF ;
@@ -1075,10 +1097,20 @@ svg path.hidden {
 	display: inline-block;
 }
 
+.crypto-graphs .button {
+	margin-top: 10px;
+}
+
 .divTable {
-	display: table;
 	width: 100%;
 	padding: 10px;
+}
+
+@media (max-width: 400px) {
+	.divTable {
+		width: 360px;
+		overflow-x: scroll;
+	}
 }
 
 .divTableBody {
@@ -1289,7 +1321,7 @@ svg path.hidden {
 .chooseLang__label::after {
   content: '\f0d7';
   position: absolute;
-  top: 3px;
+  top: -2px;
   right: 0;
   width: 16px;
   height: 10px;
@@ -1303,6 +1335,7 @@ svg path.hidden {
 .chooseLang__label_header::after {
   right: 13px;
   color: white;
+  top: -2px;
 }
 
 .chooseLang__select {
@@ -1673,6 +1706,7 @@ section.crypto-graphs {
   border: none;
   background: none;
   padding: 6px 5px;
+  border-radius: 4px;
 }
 .crypto-header__mobile-btn span {
   display: block;
@@ -1779,12 +1813,12 @@ section.crypto-graphs {
 		padding: 0px 15px;
 	}
 }
-/*
-@media (min-width: 460px) and (max-width: 767px) {
-	.crypto-mining-img {
-		width: 30%;
+
+@media (max-width: 992px) {
+	.crypto-main-news .button {
+		margin-bottom: 30px;
 	}
-	.crypto-mining-content{
-		width: 70%;
+	.crypto-articles .smallTitle {
+		margin-top: 20px;
 	}
-}*/
+}
