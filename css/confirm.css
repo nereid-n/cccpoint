@@ -5,7 +5,7 @@
 
 .confirm__content-main {
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
-	padding: 60px 40px 40px;
+	padding: 100px 90px 40px;
 	height: 400px;
 }
 
@@ -16,9 +16,54 @@
 .confirm__button {
 	display: flex;
 	justify-content: center;
-	margin-top: 60px;
+	margin-top: 140px;
 }
 
 .confirm__content-aside {
+	background-color: #42d67e;
+	color: #fff;
+	padding: 20px 40px;
+	height: 400px;
+}
+
+.confirm__aside-header p {
+	margin: 0;
+}
+
+.confirm__aside-header span {
+	position: absolute;
+	left: 10px;
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #fff;
+	color: #42d67e;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.confirm__content-aside h3 {
+	margin-top: 30px;
+	text-transform: uppercase;
+}
+
+.confirm__content-aside .footerBody__input,
+.confirm__content-aside .footerBody__form-submit {
+	height: unset;
+	border: 1px solid #fff;
+}
+
+.confirm__content-aside .footerBody__input::placeholder {
+	color: #fff;
+}
+
+.confirm__content-aside .footerBody__form-submit::before,
+.footerBody__form-submit::after {
+	color: #fff;
+}
+
+.confirm__content-aside .footerBody__form-submit:hover {
 	background-color: #42d67e;
 }
