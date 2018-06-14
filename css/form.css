@@ -2,7 +2,7 @@
  * reg form styles
  */
 
- .crypLogin__form-wrapper {
+.crypLogin__form-wrapper {
   position: relative;
   z-index: 1;
   padding: 40px;
@@ -134,10 +134,49 @@ label {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 @media (max-width: 992px) {
   .input-reg-password {
     margin-bottom: 14px;
   }
+=======
+/* kv-password */
+
+.form-group {
+position: relative;
+}
+
+.kv-strength-container td {
+width: 100%
+}
+
+td.kv-meter-container {
+position: absolute;
+top: 85px;
+left: 0;
+width: 460px;
+}
+
+.kv-scorebar-border,
+.kv-score {
+width: 100% !important;
+margin: 0;
+}
+
+.kv-scorebar {
+width: 99% !important;
+background-size: 250% !important;
+}
+
+.crypReg__agreements {
+margin-top: 45px;
+}
+
+.kv-password ~ p,
+#signupform-repeat_password ~ p {
+position: relative;
+top: 40px;
+>>>>>>> aa9cfc264184395c738765815b0170124adc6213
 }
 
 .form-check-label {
@@ -146,6 +185,7 @@ label {
   opacity: 0;
 }
 
+/* checkboxes */
 .form-check-label + label {
   position: relative;
   padding: 20px 0 0 30px;
