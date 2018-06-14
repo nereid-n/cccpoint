@@ -1,0 +1,24 @@
+.confirm {
+	background-color: #fff;
+	padding: 30px 0;
+}
+
+.confirm__content-main {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	padding: 60px 40px 40px;
+	height: 400px;
+}
+
+.confirm__content-main span {
+	font-weight: bold;
+}
+
+.confirm__button {
+	display: flex;
+	justify-content: center;
+	margin-top: 60px;
+}
+
+.confirm__content-aside {
+	background-color: #42d67e;
+}
