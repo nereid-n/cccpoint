@@ -48,25 +48,30 @@ jQuery.fn.pwdMeter = function(options){
                 
                         $('#pwdMeter').removeClass();
                         $('#pwdMeter').addClass('neutral');
-                
+                        $('.check-pass-span').removeClass('veryweakspan weakspan mediumspan strongspan verystrongspan');
                         switch(passwordStrength){
                         case 1:
+                          $('.check-pass-span:lt(1)').addClass('veryweakspan');
                           $('#pwdMeter').addClass('veryweak');
                           $('#pwdMeter').text('Very Weak');
                           break;
                         case 2:
+                          $('.check-pass-span:lt(2)').addClass('weakspan');
                           $('#pwdMeter').addClass('weak');
                           $('#pwdMeter').text('Weak');
                           break;
                         case 3:
+                          $('.check-pass-span:lt(3)').addClass('mediumspan');
                           $('#pwdMeter').addClass('medium');
                           $('#pwdMeter').text('Medium');
                           break;
                         case 4:
+                          $('.check-pass-span:lt(4)').addClass('strongspan');
                           $('#pwdMeter').addClass('strong');
                           $('#pwdMeter').text('Strong');
                           break;
                         case 5:
+                          $('.check-pass-span:lt(5)').addClass('verystrongspan');
                           $('#pwdMeter').addClass('verystrong');
                           $('#pwdMeter').text('Very Strong');
                           break;                                                      

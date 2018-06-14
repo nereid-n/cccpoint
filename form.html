@@ -154,7 +154,7 @@
   <section class="crypLogin">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-lg-6 col-6">
+        <div class="col-md-6 col-12 main-form">
           <ul class="nav nav-tabs">
             <li class="nav-item">
               <a href="#log_in" class="nav-link active crypLogin__tab crypLogin__tab_login" data-toggle="pill">
@@ -186,8 +186,6 @@
                 <a class="forgotPass-link" href="#">I forgot password</a>
               </div>
 
-              <span id="pwdMeter" class="neutral"></span>
-
               <div class="form-group">
                 <button class="button button-main" type="submit"><span>Login Me</span></button>
               </div>
@@ -200,7 +198,7 @@
               </div>
 
               <div class="form-group row">
-                <div class="col-lg-6 col-12">
+                <div class="col-lg-6 col-12 input-reg-password">
                   <label for="registerPass">Password</label>
                   <input type="password" id="registerPass" class="form-control">
                 </div>
@@ -211,6 +209,23 @@
                 </div>
               </div>
 
+              <div class="row">
+                <div class="col-12 check-pass-spans">
+                  <span class="check-pass-span"></span>
+                  <span class="check-pass-span"></span>
+                  <span class="check-pass-span"></span>
+                  <span class="check-pass-span"></span>
+                  <span class="check-pass-span"></span>
+                </div>
+              </div>
+
+
+              <div class="row check-pass">
+                  <div class="col-12">
+                    <span class="check-pass-title">Password strengh:</span>
+                    <span id="pwdMeter"></span>
+                  </div>
+                </div>
 
               <div class="captcha row">
                 <div class="col-12">
