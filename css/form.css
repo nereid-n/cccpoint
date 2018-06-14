@@ -129,3 +129,41 @@ label {
 .forgotPass-link:focus {
   text-decoration: none;
 }
+
+/* kv-password */
+
+.form-group {
+position: relative;
+}
+
+.kv-strength-container td {
+width: 100%
+}
+
+td.kv-meter-container {
+position: absolute;
+top: 85px;
+left: 0;
+width: 460px;
+}
+
+.kv-scorebar-border,
+.kv-score {
+width: 100% !important;
+margin: 0;
+}
+
+.kv-scorebar {
+width: 99% !important;
+background-size: 250% !important;
+}
+
+.crypReg__agreements {
+margin-top: 45px;
+}
+
+.kv-password ~ p,
+#signupform-repeat_password ~ p {
+position: relative;
+top: 40px;
+}
