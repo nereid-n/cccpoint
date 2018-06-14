@@ -2,7 +2,7 @@
  * reg form styles
  */
 
-.crypLogin__form-wrapper {
+ .crypLogin__form-wrapper {
   position: relative;
   z-index: 1;
   padding: 40px;
@@ -128,4 +128,55 @@ label {
 .forgotPass-link:active,
 .forgotPass-link:focus {
   text-decoration: none;
+}
+
+.form-check-label {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.form-check-label + label {
+  position: relative;
+  padding: 20px 0 0 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.form-check-label + label:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #f5f5f5;
+  box-shadow: inset 1px 1px #e4e4e4;
+  border: 1px solid #f1f1f1;
+}
+
+.form-check-label + label:after {
+  content: '';
+  position: absolute;
+  background-image: url(../img/ok.png);
+  height: 20px;
+  width: 20px;
+  left: 0;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  left: 5px;
+  top: 18px;
+  opacity: 0;
+}
+
+.form-check-label:checked + label:after {
+  opacity: 1;
+}
+
+.form-check-label:checked + label {
+  color: #000;
+}
+
+.captcha img {
+  width: 300px;
 }
