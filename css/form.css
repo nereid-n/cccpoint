@@ -234,20 +234,14 @@ margin-top: 45px;
   width: 100%;
 }
 
-.veryweak{
-  color:#B40404;
-}
 .weak{
-  color:#DF7401;
+  color:#ff3e4a;
 }
-.medium{
-  color:#FFFF00;
+.good{
+  color:#ffb24b;
 }
 .strong{
-  color:#9AFE2E;
-}
-.verystrong{
-  color:#0B610B;
+  color:#48d47b;
 }
 
 .check-pass {
@@ -256,6 +250,7 @@ margin-top: 45px;
 
 #pwdMeter {
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .check-pass-spans {
@@ -264,7 +259,7 @@ margin-top: 45px;
   display: -ms-flex;
   display: -o-flex;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .check-pass-span {
@@ -282,18 +277,12 @@ margin-top: 45px;
   font-weight: bold;
 }
 
-.veryweakspan{
-  background-color:#B40404;
-}
 .weakspan{
-  background-color:#DF7401;
+  background-color:#ff3e4a;
 }
-.mediumspan{
-  background-color:#FFFF00;
+.goodspan{
+  background-color:#ffb24b;
 }
 .strongspan{
-  background-color:#9AFE2E;
-}
-.verystrongspan{
-  background-color:#0B610B;
+  background-color:#48d47b;
 }

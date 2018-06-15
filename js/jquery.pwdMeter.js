@@ -51,30 +51,22 @@ jQuery.fn.pwdMeter = function(options){
                         $('.check-pass-span').removeClass('veryweakspan weakspan mediumspan strongspan verystrongspan');
                         switch(passwordStrength){
                         case 1:
-                          $('.check-pass-span:lt(1)').addClass('veryweakspan');
-                          $('#pwdMeter').addClass('veryweak');
-                          $('#pwdMeter').text('Very Weak');
-                          break;
                         case 2:
-                          $('.check-pass-span:lt(3)').addClass('weakspan');
+                          $('.check-pass-span:lt(4)').addClass('weakspan');
                           $('#pwdMeter').addClass('weak');
                           $('#pwdMeter').text('Weak');
                           break;
                         case 3:
-                          $('.check-pass-span:lt(5)').addClass('mediumspan');
-                          $('#pwdMeter').addClass('medium');
-                          $('#pwdMeter').text('Medium');
+                          $('.check-pass-span:lt(8)').addClass('goodspan');
+                          $('#pwdMeter').addClass('good');
+                          $('#pwdMeter').text('Good');
                           break;
                         case 4:
-                          $('.check-pass-span:lt(7)').addClass('strongspan');
+                        case 5:
+                          $('.check-pass-span:lt(12)').addClass('strongspan');
                           $('#pwdMeter').addClass('strong');
                           $('#pwdMeter').text('Strong');
-                          break;
-                        case 5:
-                          $('.check-pass-span:lt(8)').addClass('verystrongspan');
-                          $('#pwdMeter').addClass('verystrong');
-                          $('#pwdMeter').text('Very Strong');
-                          break;                                                      
+                          break;                                                     
                         default:
                           $('#pwdMeter').addClass('neutral');
                           $('#pwdMeter').text('Very Weak');
