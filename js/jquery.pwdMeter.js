@@ -48,7 +48,7 @@ jQuery.fn.pwdMeter = function(options){
                 
                         $('#pwdMeter').removeClass();
                         $('#pwdMeter').addClass('neutral');
-                        $('.check-pass-span').removeClass('veryweakspan weakspan mediumspan strongspan verystrongspan');
+                        $('.check-pass-span').removeClass('weakspan goodspan strongspan');
                         switch(passwordStrength){
                         case 1:
                         case 2:
