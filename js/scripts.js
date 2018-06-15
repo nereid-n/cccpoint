@@ -3,7 +3,9 @@ function isIE() {
 }
 
 $(document).ready(function () {
-        $("#registerPass").pwdMeter();
+  if ($("#registerPass").length > 0) {
+    $("#registerPass").pwdMeter();
+  }
   $(this).on('load scroll', function(){
       if ($(this).scrollTop() > $('.crypto-header').first().outerHeight(true))
       {
