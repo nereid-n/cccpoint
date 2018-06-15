@@ -56,22 +56,22 @@ jQuery.fn.pwdMeter = function(options){
                           $('#pwdMeter').text('Very Weak');
                           break;
                         case 2:
-                          $('.check-pass-span:lt(2)').addClass('weakspan');
+                          $('.check-pass-span:lt(3)').addClass('weakspan');
                           $('#pwdMeter').addClass('weak');
                           $('#pwdMeter').text('Weak');
                           break;
                         case 3:
-                          $('.check-pass-span:lt(3)').addClass('mediumspan');
+                          $('.check-pass-span:lt(5)').addClass('mediumspan');
                           $('#pwdMeter').addClass('medium');
                           $('#pwdMeter').text('Medium');
                           break;
                         case 4:
-                          $('.check-pass-span:lt(4)').addClass('strongspan');
+                          $('.check-pass-span:lt(7)').addClass('strongspan');
                           $('#pwdMeter').addClass('strong');
                           $('#pwdMeter').text('Strong');
                           break;
                         case 5:
-                          $('.check-pass-span:lt(5)').addClass('verystrongspan');
+                          $('.check-pass-span:lt(8)').addClass('verystrongspan');
                           $('#pwdMeter').addClass('verystrong');
                           $('#pwdMeter').text('Very Strong');
                           break;                                                      
