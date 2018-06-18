@@ -1,0 +1,51 @@
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 980px) {
+    .confirm__content-aside{
+        height: auto;
+    }
+    .confirm__content-main{
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .confirm__content-main {
+        padding: 20px;
+        text-align: center;
+    }
+    .confirm__button{
+        margin-top: 0;
+    }
+    .confirm__content-aside{
+        padding: 20px;
+    }
+    .confirm__aside-header span{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .button.button-colorless{
+        width: 100%;
+        text-align: center;
+    }
+    .footerBody__form{
+        width: 100%;
+        max-width: inherit;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+}
+
+@media only screen and (max-width: 320px) {
+
+}

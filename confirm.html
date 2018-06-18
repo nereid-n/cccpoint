@@ -1,60 +1,96 @@
 <!DOCTYPE html>
 <html lang="cs">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-	<meta name="description" content="CCC Point">
-	<meta name="author" content="Crypcoinum s.r.o.  - https://www.ccc-point.com/">
-	<meta name="copyright" content="Crypcoinum s.r.o.  - https://www.ccc-point.com/">
-	<meta name="robots" content="index, follow">
-	<title>CCC Point - Návrh HP pro napojení CMS</title>
-	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-	<link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/confirm.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="description" content="CCC Point">
+    <meta name="author" content="Crypcoinum s.r.o.  - https://www.ccc-point.com/">
+    <meta name="copyright" content="Crypcoinum s.r.o.  - https://www.ccc-point.com/">
+    <meta name="robots" content="index, follow">
+    <title>CCC Point - Návrh HP pro napojení CMS</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/confirm.css">
+    <link rel="stylesheet" href="css/media.css">
 
-  <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 </head>
 <body>
-	<section class="confirm">
-		<div class="container biggerWrap">
-			<div class="row">
-				<div class="col-md-8">
-					<div class="confirm__content">
-						<div class="confirm__content-main col-md-12">
-							<span>Dear Custome</span>
-							<p>The first stage of registration is completed, you sent a confirmation letter to the mail <span>skejpr@gmail.com</span></p>
-							<div class="confirm__button">
-								<a class="button button-main" href="/clanky" title="Všechny články">
-									<span>Resend email</span>
-								</a>
-							</div>
-						</div>             
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="confirm__content-aside col-md-12">
-						<div class="confirm__aside-header">
-							<span>?</span>
-							<p>if you have any problem, please use our helpdesk</p>
-						</div>
-						<h3><img src="img/phone.png" alt="">CALL BACK</h3>
-						<p>Our specialists will be happy to help you Leave us your telephony number and we'll call back</p>
-						<form action="#" class="footerBody__form">
-							<input class="footerBody__input" name="backCallForHelp" id="backCallForHelp" value="" type="phone" placeholder="+420" required="">
-							<button class="footerBody__form-submit" type="submit" name="backCallForHelpSubmit" id="backCallForHelpSubmit"></button>
-						</form>
-						<h3><img src="img/place.png" alt="">visit OUR POINT?</h3>
-						<p>Vyberte si Crypto point a navštivte nás</p>
-						<a class="button button-colorless" href="/najit-pobocku" title="Najít pobočku"><span>Adress crypto point</span></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+<section class="confirm">
+    <div class="container biggerWrap">
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="step-wrap-1 active">
+                    <div class="step-img"></div>
+                    <a href="#step-3" class="step"></a>
+                    <div class="step-text">
+                        Confirm your email address
+                        <span>Confirm</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="step-wrap-2 ">
+                    <div class="step-img"></div>
+                    <a href="#step-3" class="step"></a>
+                    <div class="step-text">
+                        Added your billing information
+                        <span>Waiting for confirmation</span>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-12 col-md-4">
+                <div class="step-wrap-3 no-active">
+                    <div class="step-img"></div>
+                    <a href="#step-3" class="step"></a>
+                    <div class="step-text">
+                        Verify your identity
+                        <span>Upload you ID</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 ">
+                <div class="confirm__content">
+                    <div class="confirm__content-main col-md-12">
+                        <span>Dear Custome</span>
+                        <p>The first stage of registration is completed, you sent a confirmation letter to the mail
+                            <span>skejpr@gmail.com</span></p>
+                        <div class="confirm__button">
+                            <a class="button button-main" href="/clanky" title="Všechny články">
+                                <span>Resend email</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="confirm__content-aside col-md-12">
+                    <div class="confirm__aside-header">
+                        <span>?</span>
+                        <p>if you have any problem, please use our helpdesk</p>
+                    </div>
+                    <h3><img src="img/phone.png" alt="">CALL BACK</h3>
+                    <p>Our specialists will be happy to help you Leave us your telephony number and we'll call back</p>
+                    <form action="#" class="footerBody__form">
+                        <input class="footerBody__input" name="backCallForHelp" id="backCallForHelp" value=""
+                               type="phone" placeholder="+420" required="">
+                        <button class="footerBody__form-submit" type="submit" name="backCallForHelpSubmit"
+                                id="backCallForHelpSubmit"></button>
+                    </form>
+                    <h3><img src="img/place.png" alt="">visit OUR POINT?</h3>
+                    <p>Vyberte si Crypto point a navštivte nás</p>
+                    <a class="button button-colorless" href="/najit-pobocku" title="Najít pobočku"><span>Adress crypto point</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
 </section>
 <script src="js/jquery-3.3.1.min.js"></script>
 <!--<script src="js/modernizr.js"></script>-->
