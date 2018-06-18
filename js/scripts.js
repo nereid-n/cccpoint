@@ -223,6 +223,13 @@ $(document).ready(function () {
       }
     );
   }
+
+    $(document).on('click', '#map', function () {
+        $( "#crypMap" ).slideToggle( "slow", function() {
+            // Animation complete.
+        });
+        return false;
+    })
   
 });
 

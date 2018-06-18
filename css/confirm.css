@@ -639,3 +639,6 @@
     left: 50%;
     top: 69%;
 }
+#crypMap{
+    display: none;
+}
