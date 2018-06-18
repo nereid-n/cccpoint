@@ -13,9 +13,13 @@
     .confirm__content-main{
         height: auto;
     }
+
 }
 
 @media only screen and (max-width: 770px) {
+    .confirm .step-wrap-2 .step-text span:after{
+        display: none;
+    }
     .confirm__content-main {
         padding: 20px;
         text-align: center;
