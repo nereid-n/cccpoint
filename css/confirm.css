@@ -29,6 +29,8 @@
 
 .confirm__aside-header p {
     margin: 0;
+    margin-bottom: 30px;
+    font-weight: bold;
 }
 
 .confirm__aside-header span {
@@ -67,6 +69,14 @@
 
 .confirm__content-aside .footerBody__form-submit:hover {
     background-color: #42d67e;
+}
+
+.confirm__content-aside .button-colorless {
+    text-align: center;
+}
+
+.confirm__aside-text {
+    margin: 50px 0 30px;
 }
 
 .confirm .col-3 {
@@ -599,15 +609,17 @@
 }
 .confirm-title-3{
     margin: 0;
-    color: #bfc2c4;
     font-size: 16px;
     font-weight: 700;
+    color: inherit;
 }
 .confirm-block{
     padding: 20px;
     height: 135px;
     margin: 15px auto;
     width: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .confirm-btn{
     display: inline-block;
@@ -630,7 +642,13 @@
     background: #18b5ff;
 }
 .confirm-border{
-    border: 1px dotted #bfc2c4;
+    background-image: url(../img/border.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .confirm-or{
     position: absolute;
@@ -679,4 +697,56 @@
     background: url("../img/confirm_email/icon_check_white.svg") no-repeat center center #42d67e;
     background-size: contain;
     border: 5px solid #fff;
+}
+
+.confirm__verify {
+    color: #bfc2c4;
+}
+
+.confirm__verify.active {
+    color: #000;
+}
+
+.confirm__verify.active .confirm__drop-text {
+    color: #42d67e;
+}
+
+.confirm__verify.active .confirm-border {
+    background-image: url(../img/border-gr.png);
+}
+
+.confirm-block1 {
+    background-image: url(../img/confirm_email/icon_confirm_email_identity_points_unact.svg);
+}
+
+.confirm__verify.active .confirm-block1 {
+    background-image: url(../img/confirm_email/icon_confirm_email_identity_points.svg);
+}
+
+.confirm-block2 {
+    background-image: url(../img/confirm_email/icon_confirm_email_identity_arrow_unact.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 68px;
+}
+
+.confirm__verify.active .confirm-block2 {
+    background-image: url(../img/confirm_email/icon_confirm_email_identity_arrow.svg);
+}
+
+.confirm-block3 {
+    background-image: url(../img/confirm_email/icon_confirm_email_identity_webcam_unact.svg);
+}
+
+.confirm__verify.active .confirm-block3 {
+    background-image: url(../img/confirm_email/icon_confirm_email_identity_webcam.svg);
+}
+
+.confirm__verify.active .confirm-btn {
+    background-color: #42d67e;
+}
+
+.confirm__verify.active .confirm-btn:hover {
+    background-color: #5cca89;
 }
