@@ -1,0 +1,112 @@
+<div id="root" class="root">
+  <section class="crypLogin">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6 col-12 main-form">
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a href="#log_in" class="nav-link active crypLogin__tab crypLogin__tab_login" data-toggle="pill">
+                <span class="crypLogin__tab-icon"></span>
+                <span>Log In</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#register" class="nav-link crypLogin__tab crypLogin__tab_reg" data-toggle="pill">
+                <span class="crypLogin__tab-icon"></span>
+                <span>Register</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="tab-content crypLogin__form-wrapper">
+            <form action="#" method="post" id="log_in" class="tab-pane active crypLogin___form">
+              <div class="form-group">
+                <label for="loginEmail">Your Email</label>
+                <input type="email" id="loginEmail" class="form-control">
+              </div>
+
+              <div class="form-group">
+                <label for="loginPass">You Password</label>
+                <input type="password" id="loginPass" class="form-control">
+              </div>
+
+              <div class="form-group crypLogin__forgotPass">
+                <a class="forgotPass-link" href="#">I forgot password</a>
+              </div>
+
+              <div class="form-group form-button">
+                <button class="button button-main" type="submit"><span>Login Me</span></button>
+              </div>
+            </form>
+
+            <form action="#" method="post" id="register" class="tab-pane fade crypLogin___form">
+              <div class="form-group">
+                <label for="registerEmail">Your Email</label>
+                <input type="email" id="registerEmail" class="form-control">
+              </div>
+
+              <div class="form-group row">
+                <div class="col-lg-6 col-12 input-reg-password">
+                  <label for="registerPass">Password</label>
+                  <input type="password" id="registerPass" class="form-control">
+                </div>
+
+                <div class="col-lg-6 col-12">
+                  <label for="registerRepeatPass">Repeat Password</label>
+                  <input type="password" id="registerRepeatPass" class="form-control">
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-12 check-pass-spans">
+                  <span class="check-pass-span"></span>
+                  <span class="check-pass-span"></span>
+                  <span class="check-pass-span"></span>
+                  <span class="check-pass-span"></span>
+                  <span class="check-pass-span"></span>
+                  <span class="check-pass-span"></span>
+                  <span class="check-pass-span"></span>
+                  <span class="check-pass-span"></span>
+                  <span class="check-pass-span"></span>
+                  <span class="check-pass-span"></span>
+                  <span class="check-pass-span"></span>
+                  <span class="check-pass-span"></span>
+                </div>
+              </div>
+
+
+              <div class="row check-pass">
+                  <div class="col-12">
+                    <span class="check-pass-title">Password strengh:</span>
+                    <span id="pwdMeter"></span>
+                  </div>
+                </div>
+
+              <div class="captcha row">
+                <div class="col-12">
+                  <img src="img/robot.png" alt="">
+                </div>
+              </div>
+
+              <div class="form-group row justify-content-between align-items-center">
+                <div class="col-lg-6 col-12">
+                  <input type="checkbox" id="registerAgree1" class="form-check-label">
+                  <label for="registerAgree1">I Agree Width User</label>
+                </div>
+
+                <div class="col-lg-6 col-12">
+                  <input type="checkbox" id="registerAgree2" class="form-check-label">
+                  <label for="registerAgree2">I Agree Width User</label>
+                </div>
+              </div>
+
+              <div class="form-group form-button">
+                <button class="button button-main" type="submit"><span>Register Me</span></button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

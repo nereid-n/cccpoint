@@ -1,0 +1,218 @@
+/*-----------HEADER-------------*/
+.crypto-header {
+	min-height: 500px;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding: 0 20px;
+}
+
+.crypto-header_head {
+	min-height: 100px;
+}
+
+@media (max-width: 959px) {
+	header {
+    	background-position: 66.666% center;
+	}
+}
+
+.crypto-header__actions .button {
+	margin-bottom: 20px;
+}
+
+.button-main-top {
+	padding: 6px 10px;
+	border-radius: 4px;
+}
+
+.crypto-header__payment .button-main span {
+	text-transform: none;
+	font-weight: 700;
+}
+
+.crypto-header__mobile-menu .button-main {
+	border-radius: 4px;
+	margin-bottom: 10px;
+}
+
+.crypto-header__mobile-menu .button-main span {
+	text-transform: none;
+	font-size: 14px;
+}
+
+@media (max-width: 959px) {
+	.button-main-top {
+		margin-bottom: 15px;
+	}
+}
+
+.crypto-header__top {
+	display: flex;
+}
+
+.crypto-header__wrap {
+	flex-grow: 1;
+}
+.crypto-header__wrap-top {
+	display: flex;
+	justify-content: space-between;
+}
+
+.crypto-header__payment {
+	display: flex;
+	align-items: center;
+}
+
+.crypto-language-select {
+	margin: 0px 10px;
+	position: relative;
+	width: auto;
+	height: auto;
+	padding: 0;
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 0.71em;
+	text-align: inherit;
+	z-index: 0;
+	color: #fff;
+	background-color: transparent;
+	border: none;
+}
+
+.crypto-language-select option {
+	color: #000;
+}
+
+.crypto-header__social {
+	margin-right: 10px;
+}
+
+.crypto-header__social-link {
+	color: #fff;
+	font-size: 18px;
+}
+
+.crypto-header__account {
+	margin-left: auto;
+	position: relative;
+	display: block;
+	padding: 13px 0 15px 15px;
+	font-size: 1.2em;
+	font-weight: 900;
+	cursor: pointer;
+	color: #fff;
+}
+
+/*Logo*/
+.crypto-header__logo {
+	position: relative;
+	display: inline-block;
+	width: 135px;
+	height: 62px;
+	margin: 15px 20px;
+	margin-left: 0;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.crypto-header__logo svg {
+	position: relative;
+	display: inline-block;
+	width: 135px;
+	height: 62px;
+}
+
+.crypto-header__logo svg path.lines1, svg#logoCCCPoint path.lines1 {
+	-webkit-animation: logoAnimation 1s infinite;
+	-moz-animation: logoAnimation 1s infinite;
+	-o-animation: logoAnimation 1s infinite;
+	animation: logoAnimation 1s infinite;
+}
+
+.crypto-header__logo svg path.lines2, svg#logoCCCPoint path.lines2 {
+	-webkit-animation: logoAnimation 1.3s infinite;
+	-moz-animation: logoAnimation 1.3s infinite;
+	-o-animation: logoAnimation 1.3s infinite;
+	animation: logoAnimation 1.3s infinite;
+}
+
+/*Nav*/
+.crypto-header__link, .crypto-header__link:link, .crypto-header__link:active, .crypto-header__link:visited {
+	position: relative;
+	display: inline-block;
+	color: #fff;
+	font-size: 0.85em;
+	font-weight: 700;
+	padding: 15px;
+}
+
+.crypto-header__link:after {
+	content: '';
+	position: relative;
+	top: 4px;
+	display: block;
+	width: auto;
+	height: 1px;
+	background: rgba(255,255,255,1);
+	opacity: 0;
+}
+
+.crypto-header__link:hover:after {
+	animation: navLinkAnimation 1s ease-out;
+	animation-iteration-count: 1;
+	opacity: 1;
+}
+
+.crypto-header__link i {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.crypto-header__wrap-bottom .crypto-header__link {
+	font-size: 1.2em;
+	font-weight: 800;
+	letter-spacing: 0.02em;
+}
+
+.crypto-header__bottom {
+	padding-top: 60px;
+}
+
+.crypto-header__subtitle {
+	display: block;
+	font-size: 10px;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 0.4em;
+	margin-bottom: 15px;
+	color: #fff;
+}
+
+.crypto-header__subtitle:before {
+	content: '_';
+	color: inherit;
+	font-size: inherit;
+	position: relative;
+	display: inline-block;
+}
+
+.crypto-header__title {
+	font-size: 3.5em;
+	font-weight: 900;
+	color: #fff;
+	margin-bottom: 15px;
+	max-width: 600px;
+}
+
+.crypto-header__desc {
+	font-size: 1.14em;
+	color: #fff;
+}
+.crypto-header__actions {
+	margin: 30px 0;
+}
+.crypto-header__actions .button {
+	margin-right: 20px;
+	float: left;
+}
+/*-----------END HEADER-------------*/
